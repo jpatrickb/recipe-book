@@ -5,9 +5,13 @@
       "title": "Crepes",
       "emoji": "🥞",
       "category": "breakfast",
-      "tags": ["stovetop", "quick", "vegetarian"],
+      "tags": [
+        "stovetop",
+        "quick",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/crepes.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -32,9 +36,12 @@
       "title": "German Pancakes",
       "emoji": "🍳",
       "category": "breakfast",
-      "tags": ["baked", "vegetarian"],
+      "tags": [
+        "baked",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/german-pancakes.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -60,9 +67,13 @@
       "title": "Maple Syrup",
       "emoji": "🍯",
       "category": "breakfast",
-      "tags": ["quick", "vegetarian", "no-cook"],
+      "tags": [
+        "quick",
+        "vegetarian",
+        "no-cook"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/maple-syrup.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -84,9 +95,13 @@
       "title": "Pumpkin Pancakes with Buttermilk Syrup",
       "emoji": "🎃",
       "category": "breakfast",
-      "tags": ["stovetop", "vegetarian", "fall"],
+      "tags": [
+        "stovetop",
+        "vegetarian",
+        "fall"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/pumpkin-pancakes.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -125,9 +140,15 @@
       "title": "Alfredo Sauce",
       "emoji": "🍝",
       "category": "mains",
-      "tags": ["italian", "pasta", "stovetop", "quick", "vegetarian"],
+      "tags": [
+        "italian",
+        "pasta",
+        "stovetop",
+        "quick",
+        "vegetarian"
+      ],
       "serves": "4–6",
-      "image": null,
+      "image": "images/recipes/alfredo-sauce.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -153,9 +174,13 @@
       "title": "Baked Fried Chicken",
       "emoji": "🍗",
       "category": "mains",
-      "tags": ["chicken", "american", "baked"],
+      "tags": [
+        "chicken",
+        "american",
+        "baked"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/baked-fried-chicken.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -184,9 +209,15 @@
       "title": "Baked Ham Sandwiches",
       "emoji": "🥪",
       "category": "mains",
-      "tags": ["pork", "american", "baked", "sandwich", "make-ahead"],
+      "tags": [
+        "pork",
+        "american",
+        "baked",
+        "sandwich",
+        "make-ahead"
+      ],
       "serves": "12",
-      "image": null,
+      "image": "images/recipes/baked-ham-sandwiches.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -215,9 +246,14 @@
       "title": "Baked Macaroni & Cheese",
       "emoji": "🧀",
       "category": "mains",
-      "tags": ["american", "pasta", "baked", "vegetarian"],
+      "tags": [
+        "american",
+        "pasta",
+        "baked",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/baked-mac-and-cheese.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -248,9 +284,13 @@
       "title": "Baked Parmesan Crusted Chicken",
       "emoji": "🍗",
       "category": "mains",
-      "tags": ["chicken", "italian", "baked"],
+      "tags": [
+        "chicken",
+        "italian",
+        "baked"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/baked-parmesan-crusted-chicken.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -281,10 +321,17 @@
       "title": "Balsamic Chicken Sandwiches",
       "emoji": "🥪",
       "category": "mains",
-      "tags": ["chicken", "italian", "grilled", "sandwich"],
+      "tags": [
+        "chicken",
+        "italian",
+        "grilled",
+        "sandwich"
+      ],
       "serves": "6",
-      "image": null,
-      "relatedRecipes": ["pesto"],
+      "image": "images/recipes/balsamic-chicken-sandwiches.jpg",
+      "relatedRecipes": [
+        "pesto"
+      ],
       "ingredientGroups": [
         {
           "heading": null,
@@ -310,9 +357,13 @@
       "title": "Beef Fajitas",
       "emoji": "🌮",
       "category": "mains",
-      "tags": ["beef", "mexican", "stovetop"],
+      "tags": [
+        "beef",
+        "mexican",
+        "stovetop"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/beef-fajitas.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -341,9 +392,14 @@
       "title": "Beef Stroganoff",
       "emoji": "🥩",
       "category": "mains",
-      "tags": ["beef", "american", "pasta", "stovetop"],
+      "tags": [
+        "beef",
+        "american",
+        "pasta",
+        "stovetop"
+      ],
       "serves": "4–6",
-      "image": null,
+      "image": "images/recipes/beef-stroganoff.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -372,9 +428,15 @@
       "title": "Browned Butter with Mizithra Cheese Pasta",
       "emoji": "🍝",
       "category": "mains",
-      "tags": ["italian", "pasta", "stovetop", "quick", "vegetarian"],
+      "tags": [
+        "italian",
+        "pasta",
+        "stovetop",
+        "quick",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/browned-butter-pasta.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -398,9 +460,14 @@
       "title": "Butternut Squash Risotto",
       "emoji": "🎃",
       "category": "mains",
-      "tags": ["italian", "rice", "stovetop", "vegetarian"],
+      "tags": [
+        "italian",
+        "rice",
+        "stovetop",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/butternut-squash-risotto.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -434,9 +501,12 @@
       "title": "Calzone",
       "emoji": "🍕",
       "category": "mains",
-      "tags": ["italian", "baked"],
+      "tags": [
+        "italian",
+        "baked"
+      ],
       "serves": "4",
-      "image": null,
+      "image": "images/recipes/calzone.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -461,9 +531,14 @@
       "title": "Chicken Alfredo",
       "emoji": "🍝",
       "category": "mains",
-      "tags": ["chicken", "italian", "pasta", "stovetop"],
+      "tags": [
+        "chicken",
+        "italian",
+        "pasta",
+        "stovetop"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/chicken-alfredo.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -491,9 +566,13 @@
       "title": "Chicken Burritos",
       "emoji": "🌯",
       "category": "mains",
-      "tags": ["chicken", "mexican", "stovetop"],
+      "tags": [
+        "chicken",
+        "mexican",
+        "stovetop"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/chicken-burritos.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -522,9 +601,13 @@
       "title": "Chicken Enchiladas",
       "emoji": "🫔",
       "category": "mains",
-      "tags": ["chicken", "mexican", "baked"],
+      "tags": [
+        "chicken",
+        "mexican",
+        "baked"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/chicken-enchiladas.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -554,9 +637,13 @@
       "title": "Chicken Pillows",
       "emoji": "🍗",
       "category": "mains",
-      "tags": ["chicken", "american", "baked"],
+      "tags": [
+        "chicken",
+        "american",
+        "baked"
+      ],
       "serves": "2–4",
-      "image": null,
+      "image": "images/recipes/chicken-pillows.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -585,9 +672,13 @@
       "title": "Fish Tacos",
       "emoji": "🌮",
       "category": "mains",
-      "tags": ["fish", "mexican", "stovetop"],
+      "tags": [
+        "fish",
+        "mexican",
+        "stovetop"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/fish-tacos.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -618,9 +709,15 @@
       "title": "Ham Paninis",
       "emoji": "🥪",
       "category": "mains",
-      "tags": ["pork", "american", "sandwich", "stovetop", "quick"],
+      "tags": [
+        "pork",
+        "american",
+        "sandwich",
+        "stovetop",
+        "quick"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/ham-paninis.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -646,9 +743,14 @@
       "title": "Hawaiian Haystack",
       "emoji": "🌺",
       "category": "mains",
-      "tags": ["chicken", "american", "rice", "stovetop"],
+      "tags": [
+        "chicken",
+        "american",
+        "rice",
+        "stovetop"
+      ],
       "serves": "4",
-      "image": null,
+      "image": "images/recipes/hawaiian-haystack.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -684,10 +786,17 @@
       "title": "Indian Butter Chicken",
       "emoji": "🍛",
       "category": "mains",
-      "tags": ["chicken", "indian", "stovetop"],
+      "tags": [
+        "chicken",
+        "indian",
+        "stovetop"
+      ],
       "serves": null,
-      "image": null,
-      "relatedRecipes": ["garam-masala", "turkish-flatbread"],
+      "image": "images/recipes/indian-butter-chicken.jpg",
+      "relatedRecipes": [
+        "garam-masala",
+        "turkish-flatbread"
+      ],
       "ingredientGroups": [
         {
           "heading": "Marinade",
@@ -724,9 +833,13 @@
       "title": "Marinated Grilled Chicken (Xango Chicken)",
       "emoji": "🍗",
       "category": "mains",
-      "tags": ["chicken", "asian", "grilled"],
+      "tags": [
+        "chicken",
+        "asian",
+        "grilled"
+      ],
       "serves": "4–6",
-      "image": null,
+      "image": "images/recipes/marinated-grilled-chicken.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -752,9 +865,14 @@
       "title": "Orange Chicken",
       "emoji": "🍊",
       "category": "mains",
-      "tags": ["chicken", "asian", "baked", "rice"],
+      "tags": [
+        "chicken",
+        "asian",
+        "baked",
+        "rice"
+      ],
       "serves": "6",
-      "image": null,
+      "image": "images/recipes/orange-chicken.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -791,9 +909,14 @@
       "title": "Philly Cheesesteak Sloppy Joe's",
       "emoji": "🥩",
       "category": "mains",
-      "tags": ["beef", "american", "stovetop", "sandwich"],
+      "tags": [
+        "beef",
+        "american",
+        "stovetop",
+        "sandwich"
+      ],
       "serves": "8",
-      "image": null,
+      "image": "images/recipes/philly-cheesesteak-sloppy-joes.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -826,9 +949,14 @@
       "title": "Queso Mac & Cheese",
       "emoji": "🧀",
       "category": "mains",
-      "tags": ["chicken", "mexican", "pasta", "slow-cooker"],
+      "tags": [
+        "chicken",
+        "mexican",
+        "pasta",
+        "slow-cooker"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/queso-mac-and-cheese.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -873,9 +1001,13 @@
       "title": "Quiche",
       "emoji": "🥧",
       "category": "mains",
-      "tags": ["pork", "american", "baked"],
+      "tags": [
+        "pork",
+        "american",
+        "baked"
+      ],
       "serves": "4–6",
-      "image": null,
+      "image": "images/recipes/quiche.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -903,9 +1035,15 @@
       "title": "Apple Brickle Dip",
       "emoji": "🍎",
       "category": "sides",
-      "tags": ["american", "dip", "no-cook", "quick", "vegetarian"],
+      "tags": [
+        "american",
+        "dip",
+        "no-cook",
+        "quick",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/apple-brickle-dip.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -931,9 +1069,14 @@
       "title": "Frog-Eye Salad",
       "emoji": "🍑",
       "category": "sides",
-      "tags": ["american", "salad", "vegetarian", "make-ahead"],
+      "tags": [
+        "american",
+        "salad",
+        "vegetarian",
+        "make-ahead"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/frog-eye-salad.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -963,9 +1106,15 @@
       "title": "Fruit Salad",
       "emoji": "🍓",
       "category": "sides",
-      "tags": ["american", "salad", "no-cook", "quick", "vegetarian"],
+      "tags": [
+        "american",
+        "salad",
+        "no-cook",
+        "quick",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/fruit-salad.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -990,9 +1139,14 @@
       "title": "Spanish Rice",
       "emoji": "🍚",
       "category": "sides",
-      "tags": ["mexican", "rice", "stovetop", "vegetarian"],
+      "tags": [
+        "mexican",
+        "rice",
+        "stovetop",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/spanish-rice.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1021,9 +1175,12 @@
       "title": "Spinach Salad",
       "emoji": "🥗",
       "category": "sides",
-      "tags": ["american", "salad"],
+      "tags": [
+        "american",
+        "salad"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/spinach-salad.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1060,9 +1217,14 @@
       "title": "Turkish Flatbread (Naan Bread)",
       "emoji": "🫓",
       "category": "sides",
-      "tags": ["middle-eastern", "bread", "stovetop", "vegetarian"],
+      "tags": [
+        "middle-eastern",
+        "bread",
+        "stovetop",
+        "vegetarian"
+      ],
       "serves": "20 pieces",
-      "image": null,
+      "image": "images/recipes/turkish-flatbread.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1091,9 +1253,14 @@
       "title": "French Silk Pie",
       "emoji": "🍫",
       "category": "desserts",
-      "tags": ["american", "chocolate", "no-bake", "vegetarian"],
+      "tags": [
+        "american",
+        "chocolate",
+        "no-bake",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/french-silk-pie.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1121,9 +1288,14 @@
       "title": "Fresh Peach Pie",
       "emoji": "🍑",
       "category": "desserts",
-      "tags": ["american", "fruit", "vegetarian", "no-bake"],
+      "tags": [
+        "american",
+        "fruit",
+        "vegetarian",
+        "no-bake"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/fresh-peach-pie.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1149,9 +1321,14 @@
       "title": "Ginger Snaps",
       "emoji": "🍪",
       "category": "desserts",
-      "tags": ["american", "cookies", "baked", "vegetarian"],
+      "tags": [
+        "american",
+        "cookies",
+        "baked",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/ginger-snaps.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1181,9 +1358,15 @@
       "title": "Hot Fudge Sauce",
       "emoji": "🍫",
       "category": "desserts",
-      "tags": ["american", "chocolate", "stovetop", "quick", "vegetarian"],
+      "tags": [
+        "american",
+        "chocolate",
+        "stovetop",
+        "quick",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/hot-fudge-sauce.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1208,9 +1391,14 @@
       "title": "Lemon Bars",
       "emoji": "🍋",
       "category": "desserts",
-      "tags": ["american", "citrus", "baked", "vegetarian"],
+      "tags": [
+        "american",
+        "citrus",
+        "baked",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/lemon-bars.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1246,9 +1434,14 @@
       "title": "Peanut Butter Fudge",
       "emoji": "🥜",
       "category": "desserts",
-      "tags": ["american", "no-bake", "quick", "vegetarian"],
+      "tags": [
+        "american",
+        "no-bake",
+        "quick",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/peanut-butter-fudge.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1272,9 +1465,15 @@
       "title": "Pretzel Jello Salad",
       "emoji": "🍓",
       "category": "desserts",
-      "tags": ["american", "fruit", "baked", "make-ahead", "vegetarian"],
+      "tags": [
+        "american",
+        "fruit",
+        "baked",
+        "make-ahead",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/pretzel-jello-salad.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1314,9 +1513,14 @@
       "title": "Shannon's Raspberry Cake",
       "emoji": "🍰",
       "category": "desserts",
-      "tags": ["american", "fruit", "baked", "vegetarian"],
+      "tags": [
+        "american",
+        "fruit",
+        "baked",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/shannons-raspberry-cake.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1344,9 +1548,15 @@
       "title": "Pesto",
       "emoji": "🌿",
       "category": "sauces",
-      "tags": ["italian", "sauce", "no-cook", "quick", "vegetarian"],
+      "tags": [
+        "italian",
+        "sauce",
+        "no-cook",
+        "quick",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/pesto.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1370,9 +1580,16 @@
       "title": "Cafe Rio Cilantro Lime Ranch",
       "emoji": "🌿",
       "category": "sauces",
-      "tags": ["mexican", "sauce", "dressing", "no-cook", "quick", "vegetarian"],
+      "tags": [
+        "mexican",
+        "sauce",
+        "dressing",
+        "no-cook",
+        "quick",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/cilantro-lime-ranch.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {
@@ -1397,9 +1614,15 @@
       "title": "Garam Masala",
       "emoji": "🌶️",
       "category": "sauces",
-      "tags": ["indian", "spice-blend", "no-cook", "quick", "vegetarian"],
+      "tags": [
+        "indian",
+        "spice-blend",
+        "no-cook",
+        "quick",
+        "vegetarian"
+      ],
       "serves": null,
-      "image": null,
+      "image": "images/recipes/garam-masala.jpg",
       "relatedRecipes": [],
       "ingredientGroups": [
         {

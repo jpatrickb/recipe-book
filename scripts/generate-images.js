@@ -38,8 +38,8 @@ const RECIPES_JSON = path.join(__dirname, '../data/recipes.json');
 const IMAGES_DIR   = path.join(__dirname, '../images/recipes');
 const API_KEY      = process.env.GEMINI_API_KEY;
 
-// Imagen 3 via Google AI REST API
-const IMAGEN_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/imagen-3.0-generate-002:predict?key=${API_KEY}`;
+// Gemini native image generation via generateContent API
+const IMAGEN_API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3.1-flash-image-preview:generateContent?key=${API_KEY}`;
 
 /* ---- Parse CLI args ---- */
 const args = Object.fromEntries(
@@ -79,12 +79,8 @@ function buildPrompt(recipe) {
 function generateImage(prompt) {
   return new Promise((resolve, reject) => {
     const body = JSON.stringify({
-      instances: [{ prompt }],
-      parameters: {
-        sampleCount: 1,
-        aspectRatio: '1:1',
-        outputMimeType: 'image/jpeg',
-      },
+      contents: [{ parts: [{ text: prompt }] }],
+      generationConfig: { responseModalities: ['IMAGE'] },
     });
 
     const options = {
@@ -105,12 +101,14 @@ function generateImage(prompt) {
         }
         try {
           const json = JSON.parse(data);
-          const b64 = json?.predictions?.[0]?.bytesBase64Encoded;
-          if (!b64) {
+          // Gemini returns image as inlineData in the first candidate part
+          const parts = json?.candidates?.[0]?.content?.parts ?? [];
+          const imagePart = parts.find(p => p.inlineData?.mimeType?.startsWith('image/'));
+          if (!imagePart) {
             reject(new Error('No image data in response: ' + data));
             return;
           }
-          resolve(Buffer.from(b64, 'base64'));
+          resolve(Buffer.from(imagePart.inlineData.data, 'base64'));
         } catch (e) {
           reject(new Error('Failed to parse API response: ' + e.message));
         }
