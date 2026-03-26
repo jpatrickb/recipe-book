@@ -1,0 +1,15 @@
+# Node
+node_modules/
+scripts/node_modules/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.env
+
+# Generated (optional — remove if you want to commit images)
+# images/recipes/*.jpg
+# images/recipes/*.png

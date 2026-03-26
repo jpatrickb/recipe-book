@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patrick's Recipe Book</title>
+  <meta name="description" content="A personal collection of family recipes — breakfasts, mains, sides, desserts, and more.">
+  <meta property="og:title" content="Patrick's Recipe Book">
+  <meta property="og:description" content="A personal collection of family recipes.">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="index.html" aria-label="Patrick's Recipe Book home">
+        <span class="site-logo-icon">📖</span>
+        <span class="site-logo-text">Patrick's <span>Recipe Book</span></span>
+      </a>
+
+      <div class="search-wrap">
+        <svg class="search-icon" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+          <circle cx="8.5" cy="8.5" r="5.5"/>
+          <line x1="13" y1="13" x2="17.5" y2="17.5"/>
+        </svg>
+        <input
+          id="search-input"
+          class="search-input"
+          type="search"
+          placeholder="Search recipes or ingredients…"
+          aria-label="Search recipes"
+          autocomplete="off"
+        >
+        <button id="search-clear" class="search-clear" aria-label="Clear search">✕</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===== CATEGORY FILTER ===== -->
+  <nav class="filter-bar" aria-label="Filter by category">
+    <div class="container">
+      <div id="category-filters" role="group" aria-label="Recipe categories"></div>
+    </div>
+  </nav>
+
+  <!-- ===== QUICK TAG FILTERS ===== -->
+  <div class="quick-tags">
+    <div class="container">
+      <span class="quick-tag-label">Filter by</span>
+      <div id="quick-tags" role="group" aria-label="Quick ingredient and tag filters"></div>
+    </div>
+  </div>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+    <div class="container">
+
+      <div class="results-info">
+        <p class="results-count" id="results-count" aria-live="polite">
+          <strong>…</strong> recipes
+        </p>
+      </div>
+
+      <div id="recipe-grid" class="recipe-grid" role="list">
+        <div class="loading">
+          <div class="loading-spinner" aria-hidden="true"></div>
+          Loading recipes…
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Patrick's Recipe Book</strong> — family recipes, collected with love.</p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

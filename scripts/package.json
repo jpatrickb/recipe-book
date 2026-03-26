@@ -1,0 +1,14 @@
+{
+  "name": "recipe-image-generator",
+  "version": "1.0.0",
+  "description": "Generates food photography for Patrick's Recipe Book using Gemini Imagen API",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "generate": "node generate-images.js",
+    "dry-run": "node generate-images.js --dry-run"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
