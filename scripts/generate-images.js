@@ -57,19 +57,38 @@ const DRY_RUN   = args['dry-run'] === true;
 
 /* ---- Prompt builder ---- */
 function buildPrompt(recipe) {
+  // 1. Determine base context with tag-based overrides
+  let context = 'food photography, natural light';
   const categoryPrompts = {
     breakfast: 'breakfast food photography, warm morning light, rustic wooden table',
-    mains:     'dinner food photography, warm candlelight, elegant plating',
+    mains:     'dinner food photography, natural light, appetizing plating',
     sides:     'side dish food photography, bright natural light, fresh ingredients visible',
     desserts:  'dessert food photography, soft diffused light, indulgent presentation',
     sauces:    'condiment and sauce food photography, natural light, small bowl or jar',
   };
 
-  const context = categoryPrompts[recipe.category] ?? 'food photography, natural light';
+  context = categoryPrompts[recipe.category] ?? context;
 
+  // Tag-based context enhancements
+  if (recipe.tags.includes('italian') || recipe.tags.includes('pasta')) {
+    context = 'rustic italian food photography, warm kitchen setting';
+  } else if (recipe.tags.includes('mexican')) {
+    context = 'vibrant mexican food photography, bright colors, festive setting';
+  } else if (recipe.tags.includes('asian')) {
+    context = 'minimalist asian food photography, clean presentation';
+  }
+
+  // 2. Extract key ingredients (first 3-4 often define the look)
+  const keyIngredients = recipe.ingredientGroups
+    .flatMap(g => g.items)
+    .slice(0, 3)
+    .join(', ');
+
+  // 3. Assemble the final prompt
   return (
     `Professional ${context}, ` +
-    `featuring ${recipe.title}. ` +
+    `featuring ${recipe.title} ${recipe.emoji}. ` +
+    (keyIngredients ? `Specifically showing ${keyIngredients}. ` : '') +
     `Shallow depth of field, appetizing presentation, warm earthy tones, ` +
     `photorealistic, high resolution, no text or labels.`
   );
