@@ -1683,6 +1683,64 @@
         "Finish: Stir in Parmesan cheese. Serve immediately."
       ],
       "notes": []
+    },
+    {
+      "id": "topgolf-queso-french-fries",
+      "title": "Topgolf Queso French Fries",
+      "emoji": "🍟",
+      "category": "sides",
+      "tags": [
+        "american",
+        "baked",
+        "appetizer"
+      ],
+      "serves": null,
+      "image": "images/recipes/topgolf-queso-french-fries.jpg",
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": "Fries",
+          "items": [
+            "1 bag frozen crinkle cut fries",
+            "Salt to taste"
+          ]
+        },
+        {
+          "heading": "Queso",
+          "items": [
+            "1 tbsp butter",
+            "3/4 cup onion, finely chopped",
+            "6 oz Monterey Jack cheese, block -- shred yourself for best melt",
+            "4 oz Pepper Jack cheese, block -- shred yourself",
+            "2 oz cream cheese",
+            "1/4 cup milk (add more to thin if needed)",
+            "1 can (10 oz) Rotel diced tomatoes & green chiles, drained",
+            "1/2 tsp garlic powder",
+            "Salt to taste"
+          ]
+        },
+        {
+          "heading": "Toppings",
+          "items": [
+            "Pickled jalapeños",
+            "Bacon bits or cooked, crumbled bacon strips",
+            "Green onions, sliced",
+            "Sour cream"
+          ]
+        }
+      ],
+      "instructions": [
+        "Bake the fries. Cook crinkle cut fries according to package directions (typically 425°F for 25-30 min). Season with salt right when they come out.",
+        "Sauté the onion. Melt butter in a medium saucepan over medium heat. Add onion and cook until soft and translucent, about 5-7 minutes. Reduce heat to medium-low.",
+        "Melt in the cheese. Add cream cheese first and stir until melted. Then add the Monterey Jack and Pepper Jack in handfuls, stirring constantly until smooth. Add milk to loosen if needed.",
+        "Finish the queso. Stir in the drained Rotel and garlic powder. Season with salt. Keep warm on low heat, stirring occasionally.",
+        "Assemble. Pile fries onto a plate or oven-safe dish. Pour queso generously over the top. Add bacon, jalapeños, green onions, and a dollop of sour cream.",
+        "Serve immediately while fries are hot and crispy."
+      ],
+      "notes": [
+        "Shred cheese yourself from blocks -- pre-shredded cheese contains anti-caking agents that prevent it from melting smoothly.",
+        "To keep the queso warm for serving, transfer to a small slow cooker on the \"warm\" setting."
+      ]
     }
   ]
 }
