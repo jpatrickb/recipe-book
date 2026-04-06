@@ -13,3 +13,6 @@ Thumbs.db
 # Generated (optional — remove if you want to commit images)
 # images/recipes/*.jpg
 # images/recipes/*.png
+
+# Internal tooling
+.serena/
