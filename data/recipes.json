@@ -1786,6 +1786,47 @@
         "Pour the dressing over the salad, toss well, and set aside at room temperature for at least 30 minutes before serving. Sprinkle with more dill and parsley and serve. (If you're not serving the dish immediately, you can store it in the refrigerator for up to 2 days. Let sit at room temperature for 30 minutes before serving.)"
       ],
       "notes": []
+    },
+    {
+      "id": "lemon-lime-delight-bars",
+      "title": "Lemon-Lime Delight Bars",
+      "emoji": "🍋",
+      "category": "desserts",
+      "tags": [
+        "baked",
+        "desserts"
+      ],
+      "serves": "~24 bars",
+      "image": "images/recipes/lemon-lime-delight-bars.jpg",
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": "Crust",
+          "items": [
+            "2 sticks butter",
+            "½ cup powdered sugar",
+            "2 cups flour"
+          ]
+        },
+        {
+          "heading": "Filling",
+          "items": [
+            "4 eggs, beaten",
+            "2 cups sugar",
+            "¼ cup flour",
+            "4 Tbsp. fresh lemon juice",
+            "2 Tbsp. fresh lime juice & zest to taste"
+          ]
+        }
+      ],
+      "instructions": [
+        "Combine butter, powdered sugar, and flour, mixing well. Press into 9×13 baking pan and bake 15 minutes at 350 degrees.",
+        "Blend eggs, sugar, flour, juices, and zest together; pour into slightly cooled crust. Bake at 350 degrees for 25 minutes or until set.",
+        "Chill and sprinkle with additional powdered sugar if desired."
+      ],
+      "notes": [
+        "Throw a few of these bars into a blender with some vanilla ice cream. You'll have a refreshing shake with cookie bits!"
+      ]
     }
   ]
 }
