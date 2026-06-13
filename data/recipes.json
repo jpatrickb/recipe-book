@@ -1827,6 +1827,693 @@
       "notes": [
         "Throw a few of these bars into a blender with some vanilla ice cream. You'll have a refreshing shake with cookie bits!"
       ]
+    },
+    {
+      "id": "oatmeal-with-toppings",
+      "title": "Oatmeal with Toppings",
+      "emoji": "🥣",
+      "category": "breakfast",
+      "tags": [
+        "quick",
+        "vegetarian",
+        "stovetop"
+      ],
+      "serves": "1",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "1/2 cup quick oats (dry)",
+            "1 cup milk (or water if milk is unavailable)",
+            "Salt, pinch"
+          ]
+        },
+        {
+          "heading": "Toppings (choose your own)",
+          "items": [
+            "Brown sugar",
+            "Butter",
+            "Cinnamon",
+            "Berries",
+            "Nuts",
+            "Peanut butter",
+            "Honey",
+            "Jam"
+          ]
+        }
+      ],
+      "instructions": [
+        "Pour 1 cup of milk (or water) into a pot and bring to a boil over medium-high heat.",
+        "Stir in 1/2 cup quick oats and a pinch of salt. Reduce heat to low.",
+        "Simmer for 2-3 minutes, stirring occasionally, until oats reach your desired consistency (add more milk if you prefer thinner oatmeal, or simmer longer for thicker).",
+        "Transfer to a bowl.",
+        "Top with your choice of brown sugar, butter, cinnamon, fresh or frozen berries, nuts, peanut butter, honey, or jam.",
+        "Serve warm. Let it cool slightly if needed before eating."
+      ],
+      "notes": [
+        "Quick, customizable, and great for using pantry staples. Can scale up easily for multiple servings."
+      ]
+    },
+    {
+      "id": "black-bean-tacos",
+      "title": "Black Bean Tacos",
+      "emoji": "🌮",
+      "category": "mains",
+      "tags": [
+        "mexican",
+        "vegetarian",
+        "quick"
+      ],
+      "serves": "2",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "1 (15 oz) can black beans, drained and rinsed",
+            "4 flour or corn tortillas",
+            "1/2 cup shredded cheese (cheddar, Mexican blend, or cotija)",
+            "1/2 cup salsa (fresh or jarred)",
+            "1/2 cup diced tomatoes (fresh or canned, drained)",
+            "1 avocado, sliced (optional)",
+            "Salt and pepper to taste",
+            "Optional: 1/2 teaspoon cumin or 1/4 teaspoon chili powder"
+          ]
+        }
+      ],
+      "instructions": [
+        "Drain and rinse 1 can of black beans in a colander.",
+        "Heat the beans in a saucepan over medium heat for 3-4 minutes, stirring occasionally, until warmed through.",
+        "Season the warm beans with salt, pepper, and optional cumin or chili powder to taste (about 1/2 tsp cumin or 1/4 tsp chili powder total).",
+        "Warm tortillas using one of these methods: directly over a gas flame for 10-15 seconds per side until lightly charred, in a dry skillet over medium heat for 20-30 seconds per side until soft and warm, or wrapped in a damp paper towel and microwaved for 30 seconds.",
+        "Place approximately 1/4 cup warm beans in the center of each tortilla.",
+        "Add toppings: diced tomatoes, 2 tbsp salsa, cheese, sliced avocado, or any other preferred toppings.",
+        "Fold tortillas and serve immediately."
+      ],
+      "notes": [
+        "Budget-friendly, quick, and very flexible with toppings.",
+        "Extra beans can be refrigerated for 4 days or frozen for up to 3 months."
+      ]
+    },
+    {
+      "id": "rice-and-beans-with-vegetables",
+      "title": "Rice & Beans with Vegetables",
+      "emoji": "🍚",
+      "category": "mains",
+      "tags": [
+        "vegetarian",
+        "stovetop",
+        "make-ahead"
+      ],
+      "serves": "3-4",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "2 cups cooked rice (white, brown, or jasmine)",
+            "1 (15 oz) can beans (black, pinto, or kidney beans), drained and rinsed",
+            "2 tablespoons olive oil",
+            "3 cloves garlic, minced",
+            "1 (14.5 oz) can diced tomatoes, with juice",
+            "1 cup corn (fresh, frozen, or canned)",
+            "1 teaspoon ground cumin",
+            "Salt and pepper to taste",
+            "Optional: 1/4 teaspoon chili powder or red pepper flakes for heat"
+          ]
+        }
+      ],
+      "instructions": [
+        "If rice is not already cooked, prepare 2 cups of cooked rice according to package directions.",
+        "Heat 2 tablespoons olive oil in a large skillet over medium heat.",
+        "Add 3 minced garlic cloves and sauté for 1 minute until fragrant.",
+        "Add drained and rinsed beans (1 can) and corn (1 cup). Stir and cook for 2 minutes.",
+        "Pour in the diced tomatoes with their juice and stir to combine.",
+        "Add 1 teaspoon ground cumin and stir well.",
+        "Bring to a gentle simmer over medium heat and cook for 10 minutes, stirring occasionally.",
+        "Season with salt and pepper to taste. Add optional chili powder or red pepper flakes if desired.",
+        "Serve over 1/2 cup cooked rice per serving."
+      ],
+      "notes": [
+        "Budget-friendly, flexible with vegetables and bean types.",
+        "Refrigerate leftovers for up to 4 days or freeze for up to 3 months. Works well as a meal prep."
+      ]
+    },
+    {
+      "id": "chicken-fried-rice",
+      "title": "Chicken Fried Rice",
+      "emoji": "🍳",
+      "category": "mains",
+      "tags": [
+        "asian",
+        "chicken",
+        "quick",
+        "stovetop"
+      ],
+      "serves": "2-3",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "1/2 pound boneless skinless chicken breasts, diced into 1/2 inch pieces",
+            "2 tablespoons oil (peanut, sesame, vegetable, or canola)",
+            "1/2 cup white onion, finely chopped",
+            "1 cup frozen peas and diced carrots blend",
+            "2 cloves garlic, finely minced",
+            "2 large eggs, lightly beaten",
+            "3 cups cooked white long grain rice",
+            "3-4 tablespoons low-sodium soy sauce",
+            "Salt to taste",
+            "Pepper, optional",
+            "1-2 tablespoons sriracha, optional",
+            "Green onions for garnish, optional"
+          ]
+        }
+      ],
+      "instructions": [
+        "Heat a large non-stick wok or skillet to medium-high heat. Add the diced chicken and 2 tbsp oil; sauté for 4-5 minutes until cooked through. Remove chicken from the skillet and set aside.",
+        "In the same skillet, add the frozen peas and carrots blend, and chopped onion. Sauté for 2-3 minutes.",
+        "Add 2 cloves minced garlic and cook for 1 more minute.",
+        "Push the vegetables to one side of the skillet and pour the 2 lightly beaten eggs on the other side; scramble them together with the vegetables.",
+        "Return the cooked chicken to the skillet along with 3 cups cooked rice and 3-4 tbsp low-sodium soy sauce. Stir-fry for another 2-3 minutes.",
+        "Taste and adjust seasonings (salt, pepper) as needed. Add 1-2 tbsp sriracha for spice if desired.",
+        "Serve hot, optionally garnished with green onions."
+      ],
+      "notes": [
+        "Source: Gimme Delicious (https://gimmedelicious.com/chicken-fried-rice/)",
+        "Excellent for using leftover rice.",
+        "Keeps in an airtight container for up to 4 days in the refrigerator or freezes for up to 4 months."
+      ]
+    },
+    {
+      "id": "chili-lime-chicken-bowls",
+      "title": "Chili-Lime Chicken Bowls",
+      "emoji": "🍗",
+      "category": "mains",
+      "tags": [
+        "mexican",
+        "chicken",
+        "make-ahead",
+        "quick"
+      ],
+      "serves": "4",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "1 pound boneless skinless chicken breasts or thighs (4 small pieces)",
+            "2 cups sliced bell peppers, optional",
+            "4 cups cooked rice of choice"
+          ]
+        },
+        {
+          "heading": "Marinade",
+          "items": [
+            "2 tablespoons fresh lime juice (or 1 lime)",
+            "2 teaspoons lime zest (or 1 lime)",
+            "2-3 cloves garlic, minced or crushed",
+            "1/4 cup cilantro, minced",
+            "4 tablespoons oil",
+            "1 tablespoon brown sugar",
+            "2 teaspoons chili powder",
+            "1/2 teaspoon cumin powder, optional",
+            "1 teaspoon salt",
+            "1/4 teaspoon black pepper"
+          ]
+        }
+      ],
+      "instructions": [
+        "In a large bowl, whisk together all marinade ingredients (lime juice, lime zest, minced garlic, cilantro, 4 tbsp oil, brown sugar, chili powder, cumin powder, salt, and black pepper).",
+        "Add 1 pound chicken (breasts or thighs) to the marinade bowl and mix until fully coated. Marinate for at least 20 minutes (or up to 8 hours for more flavor).",
+        "Heat a grill or skillet to medium-high heat. Cook marinated chicken for 5-8 minutes per side until cooked through. Let cool 5 minutes, then slice.",
+        "Place 2 cups sliced bell peppers in the same pan and cook for 3-4 minutes until charred.",
+        "Allow everything to cool to room temperature.",
+        "Distribute 1 cup cooked rice into each of 4 meal-prep containers, then divide sliced chicken and peppers equally among them.",
+        "Seal containers and refrigerate for up to 4 days."
+      ],
+      "notes": [
+        "Source: Gimme Delicious (https://gimmedelicious.com/chili-lime-chicken-and-rice-meal-prep-bowls/)",
+        "Excellent for meal prep, stays fresh 4 days refrigerated.",
+        "Can customize with toppings like avocado, sour cream, or black beans.",
+        "Family favorite — rated 5/5."
+      ]
+    },
+    {
+      "id": "creamy-coconut-curry-lentils-with-spinach",
+      "title": "Creamy Coconut Curry Lentils with Spinach",
+      "emoji": "🍛",
+      "category": "mains",
+      "tags": [
+        "indian",
+        "vegetarian",
+        "make-ahead",
+        "stovetop"
+      ],
+      "serves": "3-4",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "2 tablespoons olive oil",
+            "2 cloves garlic, minced",
+            "1 teaspoon grated fresh ginger",
+            "1 small yellow onion, diced",
+            "1 tablespoon curry powder",
+            "1 cup brown lentils, dry",
+            "2 cups vegetable broth",
+            "1 (13 oz) can coconut milk",
+            "3 cups fresh baby spinach"
+          ]
+        },
+        {
+          "heading": "Optional for serving",
+          "items": [
+            "4 cups cooked rice",
+            "1/4 cup chopped fresh cilantro",
+            "Salt to taste"
+          ]
+        }
+      ],
+      "instructions": [
+        "Mince garlic and ginger; dice onion.",
+        "Sauté minced garlic and grated ginger in 2 tbsp oil over medium heat for 1 minute until fragrant.",
+        "Add diced onion and continue sautéing over medium heat until soft and translucent (about 3-5 minutes).",
+        "Add 1 tablespoon curry powder and sauté for 1 minute more to toast the spices.",
+        "Add 1 cup dry brown lentils and 2 cups vegetable broth to the skillet, stirring to combine.",
+        "Cover the skillet, increase heat to medium-high, and bring to a boil. Once boiling, reduce heat to low and simmer for 20 minutes, stirring occasionally.",
+        "After lentils are tender, add 1 (13 oz) can coconut milk and stir to combine.",
+        "Increase heat to medium and simmer uncovered for 10 minutes, stirring frequently to thicken the mixture.",
+        "Turn heat off and add 3 cups fresh baby spinach, stirring gently until wilted.",
+        "Taste and adjust seasoning (salt and curry powder) as needed.",
+        "Serve over rice and top with chopped cilantro if desired."
+      ],
+      "notes": [
+        "Source: Budget Bytes (https://www.budgetbytes.com/creamy-coconut-curry-lentils-with-spinach/)",
+        "Creamy, plant-based, budget-friendly, excellent for meal prep.",
+        "Stays fresh in the refrigerator for 4-5 days.",
+        "Rated 2/5 — didn't love it."
+      ]
+    },
+    {
+      "id": "garbanzo-bean-curry",
+      "title": "Garbanzo Bean Curry",
+      "emoji": "🍲",
+      "category": "mains",
+      "tags": [
+        "indian",
+        "vegetarian",
+        "stovetop"
+      ],
+      "serves": "2-3",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "3 tablespoons olive oil",
+            "1 medium onion, diced",
+            "3 cloves garlic, minced",
+            "2 tablespoons curry powder",
+            "1 teaspoon ground cumin",
+            "1 (15 oz) can garbanzo beans (chickpeas), drained and rinsed",
+            "1 (14.5 oz) can diced tomatoes, with juice",
+            "Salt and pepper to taste",
+            "2 cups cooked rice (white, brown, or jasmine)",
+            "Optional: 1/2 teaspoon red pepper flakes, chopped cilantro for serving"
+          ]
+        }
+      ],
+      "instructions": [
+        "Heat 3 tablespoons olive oil in a large skillet or pot over medium heat.",
+        "Add diced onion (about 1 medium onion) and cook for 3-5 minutes, stirring occasionally, until softened and slightly translucent.",
+        "Add 3 minced garlic cloves and cook for 1 minute until fragrant.",
+        "Add 2 tablespoons curry powder and 1 teaspoon ground cumin. Stir constantly for about 1 minute to toast the spices and release their flavors.",
+        "Add drained and rinsed garbanzo beans (1 can) and stir to coat with the curry mixture.",
+        "Pour in the diced tomatoes with their juice and stir to combine well.",
+        "Bring to a gentle simmer over medium heat and cook for 15 minutes, stirring occasionally.",
+        "Season with salt and pepper to taste. Taste and add additional curry powder or cumin if desired. Add red pepper flakes for heat if desired.",
+        "If rice is not already cooked, prepare 2 cups of cooked rice according to package directions while the curry simmers.",
+        "Serve curry over approximately 1/2 cup cooked rice per serving in individual bowls. Top with chopped cilantro if desired."
+      ],
+      "notes": [
+        "Hearty, flavorful, and vegetarian.",
+        "Can add 1/2 cup coconut milk in the last 5 minutes for a creamier version, or add 1 cup frozen vegetables along with the beans.",
+        "Refrigerate leftovers for up to 4 days or freeze for up to 3 months."
+      ]
+    },
+    {
+      "id": "roasted-potatoes-and-green-beans",
+      "title": "Roasted Potatoes and Green Beans",
+      "emoji": "🥔",
+      "category": "sides",
+      "tags": [
+        "vegetarian",
+        "baked",
+        "quick"
+      ],
+      "serves": "2-3",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": "For the Potatoes",
+          "items": [
+            "1½ lbs mini potatoes, sliced in half or quarters",
+            "2 tablespoons olive oil",
+            "1 teaspoon Italian seasoning",
+            "½ teaspoon kosher salt",
+            "A few turns freshly ground black pepper"
+          ]
+        },
+        {
+          "heading": "For the Beans",
+          "items": [
+            "1 lb green beans, trimmed and cut in half",
+            "1 tablespoon olive oil",
+            "½ teaspoon garlic powder",
+            "¼ teaspoon kosher salt"
+          ]
+        },
+        {
+          "heading": "For Garnish (optional)",
+          "items": [
+            "⅓ cup freshly grated parmesan cheese",
+            "Chopped fresh parsley"
+          ]
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 400°F and line a baking sheet with parchment paper.",
+        "Toss potato pieces with 2 tbsp olive oil, 1 tsp Italian seasoning, ½ tsp kosher salt, and black pepper to taste. Spread evenly on the prepared baking sheet.",
+        "Roast potatoes for 20 minutes.",
+        "While potatoes are roasting, combine trimmed and halved green beans with 1 tbsp olive oil, ½ tsp garlic powder, and ¼ tsp kosher salt in the same bowl used for potatoes.",
+        "After the initial 20 minutes, remove the baking sheet, stir the potatoes, then add the green beans in an even layer around them.",
+        "Roast for another 25 minutes until potatoes are tender inside and beans are fork-tender (total roasting time: 45 minutes).",
+        "Sprinkle with ⅓ cup grated parmesan cheese and chopped fresh parsley if desired.",
+        "Serve immediately. Store leftovers in a sealed container for up to 4 days."
+      ],
+      "notes": [
+        "Source: The Recipe Well (https://therecipewell.com/roasted-potatoes-and-green-beans/)",
+        "Simple, budget-friendly side dish. Can be eaten warm as a side or standalone light meal."
+      ]
+    },
+    {
+      "id": "ham-cheese-and-veggie-omelet",
+      "title": "Omelets with Ham, Cheese & Veggies",
+      "emoji": "🍳",
+      "category": "breakfast",
+      "tags": [
+        "quick",
+        "stovetop"
+      ],
+      "serves": "1",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "2 large eggs",
+            "1 tablespoon olive oil",
+            "1/4 cup diced ham",
+            "1/4 cup cherry tomatoes, halved",
+            "2 green onions (scallions), sliced",
+            "1/4 cup shredded cheese (cheddar, Mexican blend, or mozzarella)",
+            "1/4 avocado, sliced",
+            "1 tablespoon milk or water",
+            "Salt and pepper to taste"
+          ]
+        }
+      ],
+      "instructions": [
+        "Heat 1 tablespoon olive oil in a non-stick skillet over medium heat.",
+        "Add diced ham (1/4 cup), halved cherry tomatoes (1/4 cup), and sliced green onions (2 stems). Sauté for 1-2 minutes until vegetables are slightly softened. Transfer to a plate and set aside.",
+        "In a small bowl, beat 2 large eggs together with 1 tablespoon milk (or water), salt, and pepper until well combined.",
+        "Pour beaten eggs into the skillet (no need to add more oil if there's enough residual oil). Immediately return the ham and vegetable mixture to the skillet, distributing it evenly over the eggs.",
+        "Let the eggs cook undisturbed for about 1 minute until the bottom is set and starting to brown slightly.",
+        "Gently push cooked portions toward the center of the pan and tilt the skillet so uncooked egg flows to the edges. Continue cooking for another 30 seconds to 1 minute.",
+        "When the top is still slightly wet but mostly set (about 1-2 minutes total cooking), sprinkle 1/4 cup shredded cheese on one half of the omelet.",
+        "Arrange sliced avocado (1/4 avocado) on top of the cheese.",
+        "Using a spatula, gently fold the omelet in half so the cheese and avocado are enclosed, then slide onto a plate.",
+        "Serve immediately while warm."
+      ],
+      "notes": [
+        "Protein-rich, perfect for breakfast or dinner.",
+        "Fillings can be easily customized with other vegetables, meats, or cheeses based on available ingredients."
+      ]
+    },
+    {
+      "id": "creamy-tomato-conchiglie-pasta",
+      "title": "Creamy Tomato Conchiglie Pasta",
+      "emoji": "🍝",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "vegetarian",
+        "make-ahead",
+        "stovetop"
+      ],
+      "serves": "4-5",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "1 can (28 oz) diced tomatoes",
+            "1 onion, chopped",
+            "3 carrots, chopped",
+            "1 package (16 oz) conchiglie (shell pasta)",
+            "1 cup whipping cream (or omit for lighter version)",
+            "Salt to taste",
+            "Parmesan cheese for serving"
+          ]
+        }
+      ],
+      "instructions": [
+        "Sauté chopped onion in a large pan over medium heat for 2-3 minutes until translucent.",
+        "Add chopped carrots to the pan and continue sautéing for another 5-7 minutes until the onions are soft and carrots begin to soften.",
+        "Add the can of diced tomatoes (with juices) to the pan and stir to combine.",
+        "Reduce heat to medium-low and simmer for 10-15 minutes, stirring occasionally, until the sauce has thickened slightly and the carrots are tender.",
+        "Season with salt to taste.",
+        "While the sauce simmers, cook the conchiglie pasta according to package directions (typically 8-10 minutes). Drain pasta and set aside.",
+        "If using whipping cream, stir it into the tomato sauce in the last 2 minutes of simmering. Stir well to combine.",
+        "Add the cooked pasta to the tomato mixture and stir gently to coat all shells evenly.",
+        "Transfer to serving bowls or meal-prep containers and sprinkle generously with parmesan cheese.",
+        "Serve warm. Store leftovers in sealed containers in the refrigerator for up to 4 days."
+      ],
+      "notes": [
+        "Comfort food classic. Excellent for meal prep.",
+        "Can be made lighter by omitting cream. Carrots add natural sweetness and nutrition."
+      ]
+    },
+    {
+      "id": "one-pot-french-onion-pasta",
+      "title": "One-Pot French Onion Pasta",
+      "emoji": "🧅",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "vegetarian",
+        "stovetop"
+      ],
+      "serves": "3-4",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "3 large yellow onions, sliced 1/4\" thin",
+            "12 oz mezze rigatoni or other short pasta",
+            "4 cloves garlic, minced",
+            "2 tsp fresh thyme, chopped",
+            "1/4 cup dry white wine",
+            "1 tsp Worcestershire sauce",
+            "3 cups low sodium beef broth",
+            "1 cup water",
+            "2 tbsp unsalted butter",
+            "2 tbsp olive oil",
+            "1/4 cup heavy whipping cream",
+            "1 cup Gruyère cheese, grated",
+            "2 tsp kosher salt",
+            "1 tsp black pepper"
+          ]
+        }
+      ],
+      "instructions": [
+        "Melt butter with olive oil in a large Dutch oven over medium heat.",
+        "Add sliced onions and sauté frequently, stirring often, for about 1 hour until they reach a deep golden brown color and become jammy. This is the key step—patience is essential for developing the rich onion flavor.",
+        "Once caramelized, add minced garlic and fresh thyme, cooking for about 3-4 minutes until very fragrant.",
+        "Pour in white wine and deglaze the pot by scraping up the browned bits from the bottom with a wooden spoon.",
+        "Add Worcestershire sauce, salt, and black pepper, stirring to combine.",
+        "Add beef broth, water, and uncooked pasta directly to the pot. Stir to combine.",
+        "Bring to a boil over medium-high heat, then reduce heat to medium-low and simmer while stirring frequently for about 8-10 minutes, until the pasta is al dente and a good amount of liquid has evaporated (the mixture should be saucy but not soupy).",
+        "Remove from heat and stir in heavy cream and grated Gruyère cheese until fully incorporated and creamy.",
+        "Taste and adjust seasoning as needed. Serve immediately."
+      ],
+      "notes": [
+        "Source: Cozy Cravings (https://cozycravings.com/one-pot-french-onion-pasta/)",
+        "Cozy, one-pot meal inspired by French onion soup. The long caramelization time is crucial for developing depth of flavor.",
+        "For best results, use a good quality Gruyère cheese."
+      ]
+    },
+    {
+      "id": "cheesy-garlic-chicken-wraps",
+      "title": "Cheesy Garlic Chicken Wraps",
+      "emoji": "🌯",
+      "category": "mains",
+      "tags": [
+        "chicken",
+        "quick",
+        "make-ahead"
+      ],
+      "serves": "4",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "1 lb boneless, skinless chicken breast",
+            "4 large flour tortillas",
+            "3 tbsp mayonnaise",
+            "1/4 cup sour cream or Greek yogurt",
+            "5-6 cloves garlic, minced",
+            "1.5 cups shredded cheddar or Mexican blend cheese",
+            "2-3 green onions (scallions), sliced",
+            "Salt and pepper to taste",
+            "Hot sauce, optional (1-2 tbsp if desired)",
+            "Oil for pan-frying (about 2 tbsp)"
+          ]
+        }
+      ],
+      "instructions": [
+        "Slice or dice the chicken breast into bite-sized pieces and season with salt and pepper.",
+        "In a small bowl, combine mayonnaise, sour cream (or yogurt), minced garlic, and hot sauce if using. Mix until smooth and creamy.",
+        "Heat oil in a skillet over medium-high heat. Add chicken pieces and cook for 6-8 minutes, stirring occasionally, until golden and cooked through. Let cool slightly, then roughly chop the cooked chicken.",
+        "Place a tortilla flat on a work surface.",
+        "Spread about 2 tbsp of the mayo-garlic mixture down the center of the tortilla.",
+        "Layer with cooked chicken (about 1/4 of the total), then sprinkle with shredded cheese (about 1/3 cup) and sliced green onions.",
+        "Fold in the sides of the tortilla and roll tightly from one end to create a burrito-style wrap.",
+        "Heat 1 tbsp oil in the same skillet over medium heat. Place wraps seam-side down and pan-fry for 3-4 minutes per side until golden, crispy, and the cheese melts.",
+        "Serve immediately while the cheese is warm and melted."
+      ],
+      "notes": [
+        "Source: Cooked and Loved (https://www.cookedandloved.com/recipes/cheesy-garlic-chicken-wraps/)",
+        "Can be assembled ahead and refrigerated, then cooked fresh before serving for best texture.",
+        "For a lighter version, use air fryer at 375°F for 6-8 minutes instead of pan-frying."
+      ]
+    },
+    {
+      "id": "chicken-and-broccoli-pasta",
+      "title": "Chicken and Broccoli Pasta with White Sauce",
+      "emoji": "🥦",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "chicken",
+        "stovetop"
+      ],
+      "serves": "3",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "250g (8 oz) boneless, skinless chicken breast",
+            "250g (8 oz) broccoli florets",
+            "250g (8 oz) short pasta (penne or rigatoni)",
+            "3 tbsp unsalted butter",
+            "4 tbsp vegetable or olive oil",
+            "5-7 cloves garlic, minced",
+            "1 tbsp all-purpose flour",
+            "1.5 cups whole milk",
+            "1/2 cup heavy whipping cream",
+            "Salt and pepper to taste"
+          ]
+        }
+      ],
+      "instructions": [
+        "Bring a large pot of salted water to a boil. Add pasta and cook until al dente according to package directions (typically 8-10 minutes). Reserve 1 cup of pasta cooking water, then drain pasta and set aside.",
+        "In the same pot of boiling water (or a separate pot), add broccoli florets and steam for 8-10 minutes until tender-crisp. Drain and set aside.",
+        "Pat the chicken breast dry with paper towels and season both sides with salt and pepper.",
+        "Heat 2 tbsp butter and 2 tbsp oil in a large skillet over medium heat. Once hot, add chicken breast and sear for 8-10 minutes per side until golden brown and cooked through (internal temperature should reach 165°F). Remove chicken to a cutting board and let rest for 5 minutes, then slice into bite-sized pieces.",
+        "In the same skillet, heat remaining 1 tbsp butter and 2 tbsp oil over medium heat. Add minced garlic and sauté for about 1 minute until fragrant, being careful not to burn.",
+        "Sprinkle flour over the garlic and oil, stirring constantly for about 1-2 minutes until the raw flour smell disappears and it forms a light paste (roux).",
+        "Slowly pour in milk and cream, stirring constantly to avoid lumps. Continue stirring as the sauce heats and thickens, about 3-5 minutes.",
+        "Season the sauce with salt and pepper to taste.",
+        "Add cooked pasta and broccoli to the sauce, stirring gently to coat everything evenly. If the sauce is too thick, add a splash of reserved pasta water to reach desired consistency.",
+        "Add sliced chicken back to the pan and gently toss to combine.",
+        "Serve immediately, optionally drizzling with a bit of extra virgin olive oil."
+      ],
+      "notes": [
+        "Source: Flavor Quotient (https://flavorquotient.com/2016/11/broccoli-and-chicken-pasta-with-white-sauce/)",
+        "Quick, creamy, and satisfying pasta dish with good protein from the chicken.",
+        "The key to a smooth sauce is tempering the milk gradually and stirring constantly.",
+        "For a lighter version, reduce the cream to 1/4 cup and increase milk to 2 cups."
+      ]
+    },
+    {
+      "id": "baked-hasselback-potatoes",
+      "title": "Baked Hasselback Potatoes",
+      "emoji": "🥔",
+      "category": "sides",
+      "tags": [
+        "vegetarian",
+        "baked",
+        "make-ahead"
+      ],
+      "serves": "4-6",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "5-6 medium potatoes (Russet or Yukon Gold, about 8 oz each)",
+            "1.5 tsp extra virgin olive oil (for initial rub)",
+            "1/4 tsp kosher salt (for initial rub)",
+            "1/4 cup extra virgin olive oil (for basting)",
+            "1.25 tsp kosher salt (for basting)",
+            "4 garlic cloves, skin on, smashed, optional but recommended",
+            "3 sprigs fresh rosemary, optional but recommended",
+            "Black pepper to taste"
+          ]
+        }
+      ],
+      "instructions": [
+        "Preheat oven to 200°C/400°F (180°C fan).",
+        "Scrub and rinse potatoes thoroughly under running water. Pat dry completely with paper towels.",
+        "Place a potato on a cutting board between two wooden spatulas, chopsticks, or wooden skewers that are no thicker than 1cm. These will prevent you from cutting all the way through the potato. Using a sharp knife, slice thinly across the potato (aim for about 2mm slices) perpendicular to the chopsticks, slicing approximately 90% of the way through but not all the way to the bottom. This creates thin \"pages\" within the potato that will fan out as it cooks.",
+        "Repeat slicing for all potatoes.",
+        "Rub each sliced potato with 1.5 tsp olive oil and sprinkle with 1/4 tsp salt, rubbing the oil and salt into the slices.",
+        "Place potatoes on a roasting tray lined with foil or parchment paper.",
+        "Bake at 200°C/400°F for 30 minutes.",
+        "Remove from oven. Pour 1/4 cup olive oil over the potatoes and sprinkle with 1.25 tsp salt. Scatter smashed garlic cloves and rosemary sprigs around and between the potatoes.",
+        "Return to oven and bake for another 40 minutes, basting generously with the oil from the tray every 10 minutes. The oil helps the slices get crispy and cook evenly.",
+        "After 40 minutes, check that the potatoes are tender inside by piercing with a fork.",
+        "Once soft, increase oven temperature to 220°C/425°F (200°C fan). Baste again and bake for another 10-15 minutes until the edges and top are golden and crispy.",
+        "Remove from oven and serve immediately while hot and crispy. Discard garlic skins if desired."
+      ],
+      "notes": [
+        "Source: RecipeTin Eats (https://www.recipetineats.com/hasselback-potatoes/)",
+        "The key to perfect hasselback potatoes is frequent basting—this creates the crispy exterior while keeping the inside tender.",
+        "The thin slicing is essential for creating that beautiful fanned effect. Don't skip the garlic and rosemary; they add wonderful flavor.",
+        "Excellent as a side dish or light main course."
+      ]
     }
   ]
 }
