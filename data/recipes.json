@@ -2514,6 +2514,65 @@
         "The thin slicing is essential for creating that beautiful fanned effect. Don't skip the garlic and rosemary; they add wonderful flavor.",
         "Excellent as a side dish or light main course."
       ]
+    },
+    {
+      "id": "ube-biko",
+      "title": "Ube Biko with Custard Topping",
+      "emoji": "🍠",
+      "category": "desserts",
+      "tags": [
+        "filipino",
+        "baked",
+        "vegetarian",
+        "make-ahead"
+      ],
+      "serves": "12",
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": "Sticky Rice",
+          "items": [
+            "2 cups glutinous rice (washed and drained)",
+            "3/4 can coconut milk",
+            "1 cup water"
+          ]
+        },
+        {
+          "heading": "Ube Halaya",
+          "items": [
+            "1 can coconut milk",
+            "3/4 can evaporated milk",
+            "3/4 can condensed milk",
+            "2 cups ube (cut into cubes)"
+          ]
+        },
+        {
+          "heading": "Custard Topping",
+          "items": [
+            "1/4 can condensed milk",
+            "1/4 can evaporated milk",
+            "1/4 can coconut milk",
+            "2 egg yolks",
+            "1 tablespoon flour"
+          ]
+        }
+      ],
+      "instructions": [
+        "Grease an 8x8-inch square pan generously with oil.",
+        "In a large pot over medium heat, combine coconut milk and water with the glutinous rice. Simmer, then reduce heat to low and cover. Cook until the liquids are absorbed—the rice should be almost cooked at this stage.",
+        "While the rice cooks, prepare the ube halaya by combining ube, coconut milk, and evaporated milk in a large pan over medium heat until fork tender. Mash into a puree using an immersion blender or potato masher.",
+        "Add the condensed milk and stir constantly until thick and smooth.",
+        "Fold the half-cooked rice into the ube halaya mixture until combined. Transfer to the greased pan and spread evenly.",
+        "Mix all custard ingredients in a bowl and pour over the rice mixture. Bake at 180°C (356°F) for 15–25 minutes until the custard is golden and cooked through."
+      ],
+      "notes": [
+        "Source: Foxy Folksy (https://www.foxyfolksy.com/ube-biko/)",
+        "The rice should remain slightly undercooked before baking; avoid overstirring while cooking to prevent mushiness.",
+        "Ready-made ube halaya can be substituted for the homemade version.",
+        "No-bake alternative: cook the custard on the stovetop in a skillet covered with banana leaves for 15–20 minutes.",
+        "Store in an airtight container for 2–3 days; reheat in the microwave."
+      ]
     }
   ]
 }
