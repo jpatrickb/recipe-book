@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creamy Tuscan Chicken — Patrick's Recipe Book</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="/" aria-label="Patrick's Recipe Book home">
+        <span class="site-logo-icon">📖</span>
+        <span class="site-logo-text">Patrick's <span>Recipe Book</span></span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+    <div class="container" id="recipe-content">
+
+      <!-- Back button -->
+      <nav class="back-nav" aria-label="Breadcrumb">
+        <a class="back-btn" href="/">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M10 12L6 8l4-4"/>
+          </svg>
+          All Recipes
+        </a>
+      </nav>
+
+      <!-- Recipe Hero -->
+      <section class="recipe-hero" aria-label="Recipe overview">
+        <div id="hero-visual" class="hero-visual cat-mains">
+          <img src="/images/recipes/creamy-tuscan-chicken.jpg" alt="Creamy Tuscan Chicken">
+        </div>
+
+        <h1 id="recipe-title" class="recipe-title">Creamy Tuscan Chicken</h1>
+
+        <div class="recipe-meta">
+          <span id="recipe-badge" class="badge badge-mains">Mains</span>
+          <span id="recipe-serves" class="serves-badge">🍴 Serves 4</span>
+        </div>
+
+        <div id="recipe-tags" class="recipe-tags">
+          <span class="inline-tag">chicken</span><span class="inline-tag">italian</span><span class="inline-tag">stovetop</span>
+        </div>
+      </section>
+
+      <!-- Action Buttons -->
+      <div class="recipe-actions no-print">
+        <button id="check-reset" class="btn btn-outline" aria-label="Uncheck all ingredients">
+          <span aria-hidden="true">↺</span> Reset checklist
+        </button>
+        <button class="btn btn-outline" onclick="window.print()" aria-label="Print this recipe">
+          <span aria-hidden="true">🖨</span> Print
+        </button>
+      </div>
+
+      <!-- Recipe Body: Ingredients + Instructions -->
+      <div class="recipe-body">
+
+        <!-- Ingredients -->
+        <aside class="ingredients-panel" aria-label="Ingredients">
+          <h2 class="panel-title">Ingredients</h2>
+          <div id="ingredients-container">
+            
+    <ul class="ingredient-list">
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 pound boneless, skinless chicken breasts, cut in half horizontally (see Tip) or 4 thin-sliced boneless, skinless chicken breasts</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">Salt and black pepper</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 tablespoons extra-virgin olive oil</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 tablespoons butter (salted or unsalted)</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 pint cherry or other small tomatoes, halved</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">½ small onion or 1 medium shallot, minced</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">3 garlic cloves, minced</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1½ cups chicken broth</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 teaspoon dried oregano (or 1 teaspoon chopped fresh oregano)</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 teaspoon dried basil (or 1 teaspoon chopped fresh basil), optional</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">½ cup heavy cream</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">½ cup grated Parmesan, plus more for serving</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 ounces cream cheese, at room temperature</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 cups packed baby spinach (about 3 ounces)</span>
+      </li>
+    </ul>
+          </div>
+        </aside>
+
+        <!-- Instructions -->
+        <article aria-label="Instructions">
+          <h2 class="panel-title">Instructions</h2>
+          <ol id="instructions-list" class="instructions-list" aria-label="Step-by-step instructions">
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">1</span>
+        <p class="step-text">Season both sides of the chicken breasts with salt and pepper.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">2</span>
+        <p class="step-text">Heat a large pan over medium. Heat the olive oil in the pan. Add the chicken and cook until golden brown (but not cooked through), about 4 minutes on each side. Remove chicken from pan and set aside.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">3</span>
+        <p class="step-text">Add the butter to the pan and let it melt. Add tomatoes, onion, garlic and a pinch of salt, and cook, stirring, until the tomatoes and onion have just softened and the garlic is aromatic, 1 to 2 minutes.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">4</span>
+        <p class="step-text">Add broth, oregano and basil (if using), and stir to combine, scraping the browned bits from the bottom of the pan, and let simmer until the liquid has reduced by about half, 4 to 5 minutes. Add the heavy cream, grated Parmesan and cream cheese, and stir, allowing the cream cheese to soften and melt, until thickened, about 6 minutes. Add baby spinach and stir until the spinach begins to wilt, about 1 minute.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">5</span>
+        <p class="step-text">Return the chicken breasts to the pan and simmer until the chicken is cooked through, 4 to 5 minutes. Remove from heat and serve immediately with more freshly grated Parmesan on top.</p>
+      </li>
+          </ol>
+
+          <!-- Notes -->
+          <div id="recipe-notes" class="recipe-notes">
+        <p class="notes-title">💡 Notes</p>
+        <ul id="notes-list" class="notes-list"><li>To cut boneless, skinless chicken breasts in half horizontally, place them individually on a cutting board, leaving a few inches in between each. Place the palm of your hand on the chicken, apply pressure down, raise your fingers up and out of the way of your chef&#39;s knife, then slice breasts in half as evenly as possible, creating two thin cutlets.</li></ul>
+      </div>
+        </article>
+
+      </div>
+
+      <!-- Related Recipes -->
+      <section id="related-section" class="related-section" hidden aria-label="Related recipes">
+      <h2 class="related-title">You might also need</h2>
+      <div id="related-grid" class="related-grid">
+
+      </div>
+    </section>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Patrick's Recipe Book</strong> — family recipes, collected with love.</p>
+    </div>
+  </footer>
+
+  <script src="/js/recipe.js"></script>
+</body>
+</html>

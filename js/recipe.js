@@ -12,17 +12,22 @@ const CATEGORIES = {
 
 const VALID_CATEGORIES = new Set(Object.keys(CATEGORIES));
 
+function getRecipeIdFromUrl() {
+  const pathMatch = window.location.pathname.match(/\/recipes\/([^/]+)/);
+  if (pathMatch) return decodeURIComponent(pathMatch[1]);
+  return new URLSearchParams(window.location.search).get('id');
+}
+
 async function init() {
-  const params = new URLSearchParams(window.location.search);
-  const recipeId = params.get('id');
+  const recipeId = getRecipeIdFromUrl();
 
   if (!recipeId) {
-    window.location.replace('index.html');
+    window.location.replace('/');
     return;
   }
 
   try {
-    const res = await fetch('./data/recipes.json');
+    const res = await fetch('/data/recipes.json');
     if (!res.ok) throw new Error('Failed to load recipes.json');
     const data = await res.json();
 
@@ -55,7 +60,7 @@ function renderRecipe(recipe, recipeMap) {
 
   if (recipe.image) {
     const img = document.createElement('img');
-    img.src = recipe.image;
+    img.src = '/' + recipe.image;
     img.alt = recipe.title;
     heroVisual.appendChild(img);
   } else {
@@ -212,7 +217,7 @@ function buildRelatedCard(recipe) {
 
   const link = document.createElement('a');
   link.className = 'recipe-card';
-  link.href = 'recipe.html?id=' + encodeURIComponent(recipe.id);
+  link.href = '/recipes/' + encodeURIComponent(recipe.id) + '/';
   link.setAttribute('aria-label', recipe.title);
 
   const visual = document.createElement('div');
@@ -220,7 +225,7 @@ function buildRelatedCard(recipe) {
 
   if (recipe.image) {
     const img = document.createElement('img');
-    img.src = recipe.image;
+    img.src = '/' + recipe.image;
     img.alt = recipe.title;
     img.loading = 'lazy';
     visual.appendChild(img);
@@ -276,7 +281,7 @@ function showNotFound(id) {
   p.textContent = 'We couldn\'t find a recipe with that ID.';
 
   const a = document.createElement('a');
-  a.href = 'index.html';
+  a.href = '/';
   a.style.cssText = 'display:inline-block;margin-top:24px;color:var(--color-accent)';
   a.textContent = '← Back to all recipes';
 

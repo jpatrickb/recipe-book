@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chicken Alfredo — Patrick's Recipe Book</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="/" aria-label="Patrick's Recipe Book home">
+        <span class="site-logo-icon">📖</span>
+        <span class="site-logo-text">Patrick's <span>Recipe Book</span></span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+    <div class="container" id="recipe-content">
+
+      <!-- Back button -->
+      <nav class="back-nav" aria-label="Breadcrumb">
+        <a class="back-btn" href="/">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M10 12L6 8l4-4"/>
+          </svg>
+          All Recipes
+        </a>
+      </nav>
+
+      <!-- Recipe Hero -->
+      <section class="recipe-hero" aria-label="Recipe overview">
+        <div id="hero-visual" class="hero-visual cat-mains">
+          <img src="/images/recipes/chicken-alfredo.jpg" alt="Chicken Alfredo">
+        </div>
+
+        <h1 id="recipe-title" class="recipe-title">Chicken Alfredo</h1>
+
+        <div class="recipe-meta">
+          <span id="recipe-badge" class="badge badge-mains">Mains</span>
+          <span id="recipe-serves" class="serves-badge" style="display:none"></span>
+        </div>
+
+        <div id="recipe-tags" class="recipe-tags">
+          <span class="inline-tag">chicken</span><span class="inline-tag">italian</span><span class="inline-tag">pasta</span><span class="inline-tag">stovetop</span>
+        </div>
+      </section>
+
+      <!-- Action Buttons -->
+      <div class="recipe-actions no-print">
+        <button id="check-reset" class="btn btn-outline" aria-label="Uncheck all ingredients">
+          <span aria-hidden="true">↺</span> Reset checklist
+        </button>
+        <button class="btn btn-outline" onclick="window.print()" aria-label="Print this recipe">
+          <span aria-hidden="true">🖨</span> Print
+        </button>
+      </div>
+
+      <!-- Recipe Body: Ingredients + Instructions -->
+      <div class="recipe-body">
+
+        <!-- Ingredients -->
+        <aside class="ingredients-panel" aria-label="Ingredients">
+          <h2 class="panel-title">Ingredients</h2>
+          <div id="ingredients-container">
+            
+    <ul class="ingredient-list">
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">4 oz cream cheese</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 1/2 c milk</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">3/4 c Parmesan cheese, grated</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 can chicken breast meat</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 c frozen peas</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">8 oz fettuccine, cooked</span>
+      </li>
+    </ul>
+          </div>
+        </aside>
+
+        <!-- Instructions -->
+        <article aria-label="Instructions">
+          <h2 class="panel-title">Instructions</h2>
+          <ol id="instructions-list" class="instructions-list" aria-label="Step-by-step instructions">
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">1</span>
+        <p class="step-text">Heat cream cheese and milk over medium heat to a boil, stirring constantly. Stir in 1/2 c Parmesan. Reduce heat to low and cook 5 minutes.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">2</span>
+        <p class="step-text">Add chicken, peas, and pasta to the pot. Toss to combine, top with remaining Parmesan, and serve.</p>
+      </li>
+          </ol>
+
+          <!-- Notes -->
+          <div id="recipe-notes" class="recipe-notes">
+        <p class="notes-title">💡 Notes</p>
+        <ul id="notes-list" class="notes-list"><li>For a more traditional sauce, substitute 2 Tbsp butter and 1 1/2 c heavy cream for the cream cheese and milk.</li></ul>
+      </div>
+        </article>
+
+      </div>
+
+      <!-- Related Recipes -->
+      <section id="related-section" class="related-section" hidden aria-label="Related recipes">
+      <h2 class="related-title">You might also need</h2>
+      <div id="related-grid" class="related-grid">
+
+      </div>
+    </section>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Patrick's Recipe Book</strong> — family recipes, collected with love.</p>
+    </div>
+  </footer>
+
+  <script src="/js/recipe.js"></script>
+</body>
+</html>

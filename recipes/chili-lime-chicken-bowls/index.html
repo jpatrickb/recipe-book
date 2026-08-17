@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chili-Lime Chicken Bowls — Patrick's Recipe Book</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="/" aria-label="Patrick's Recipe Book home">
+        <span class="site-logo-icon">📖</span>
+        <span class="site-logo-text">Patrick's <span>Recipe Book</span></span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+    <div class="container" id="recipe-content">
+
+      <!-- Back button -->
+      <nav class="back-nav" aria-label="Breadcrumb">
+        <a class="back-btn" href="/">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M10 12L6 8l4-4"/>
+          </svg>
+          All Recipes
+        </a>
+      </nav>
+
+      <!-- Recipe Hero -->
+      <section class="recipe-hero" aria-label="Recipe overview">
+        <div id="hero-visual" class="hero-visual cat-mains">
+          <img src="/images/recipes/chili-lime-chicken-bowls.jpg" alt="Chili-Lime Chicken Bowls">
+        </div>
+
+        <h1 id="recipe-title" class="recipe-title">Chili-Lime Chicken Bowls</h1>
+
+        <div class="recipe-meta">
+          <span id="recipe-badge" class="badge badge-mains">Mains</span>
+          <span id="recipe-serves" class="serves-badge">🍴 Serves 4</span>
+        </div>
+
+        <div id="recipe-tags" class="recipe-tags">
+          <span class="inline-tag">mexican</span><span class="inline-tag">chicken</span><span class="inline-tag">make-ahead</span><span class="inline-tag">quick</span>
+        </div>
+      </section>
+
+      <!-- Action Buttons -->
+      <div class="recipe-actions no-print">
+        <button id="check-reset" class="btn btn-outline" aria-label="Uncheck all ingredients">
+          <span aria-hidden="true">↺</span> Reset checklist
+        </button>
+        <button class="btn btn-outline" onclick="window.print()" aria-label="Print this recipe">
+          <span aria-hidden="true">🖨</span> Print
+        </button>
+      </div>
+
+      <!-- Recipe Body: Ingredients + Instructions -->
+      <div class="recipe-body">
+
+        <!-- Ingredients -->
+        <aside class="ingredients-panel" aria-label="Ingredients">
+          <h2 class="panel-title">Ingredients</h2>
+          <div id="ingredients-container">
+            
+    <ul class="ingredient-list">
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 pound boneless skinless chicken breasts or thighs (4 small pieces)</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 cups sliced bell peppers, optional</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">4 cups cooked rice of choice</span>
+      </li>
+    </ul>
+<p class="ingredient-section-heading">Marinade</p>
+    <ul class="ingredient-list">
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 tablespoons fresh lime juice (or 1 lime)</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 teaspoons lime zest (or 1 lime)</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2-3 cloves garlic, minced or crushed</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/4 cup cilantro, minced</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">4 tablespoons oil</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 tablespoon brown sugar</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 teaspoons chili powder</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/2 teaspoon cumin powder, optional</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 teaspoon salt</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/4 teaspoon black pepper</span>
+      </li>
+    </ul>
+          </div>
+        </aside>
+
+        <!-- Instructions -->
+        <article aria-label="Instructions">
+          <h2 class="panel-title">Instructions</h2>
+          <ol id="instructions-list" class="instructions-list" aria-label="Step-by-step instructions">
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">1</span>
+        <p class="step-text">In a large bowl, whisk together all marinade ingredients (lime juice, lime zest, minced garlic, cilantro, 4 tbsp oil, brown sugar, chili powder, cumin powder, salt, and black pepper).</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">2</span>
+        <p class="step-text">Add 1 pound chicken (breasts or thighs) to the marinade bowl and mix until fully coated. Marinate for at least 20 minutes (or up to 8 hours for more flavor).</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">3</span>
+        <p class="step-text">Heat a grill or skillet to medium-high heat. Cook marinated chicken for 5-8 minutes per side until cooked through. Let cool 5 minutes, then slice.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">4</span>
+        <p class="step-text">Place 2 cups sliced bell peppers in the same pan and cook for 3-4 minutes until charred.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">5</span>
+        <p class="step-text">Allow everything to cool to room temperature.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">6</span>
+        <p class="step-text">Distribute 1 cup cooked rice into each of 4 meal-prep containers, then divide sliced chicken and peppers equally among them.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">7</span>
+        <p class="step-text">Seal containers and refrigerate for up to 4 days.</p>
+      </li>
+          </ol>
+
+          <!-- Notes -->
+          <div id="recipe-notes" class="recipe-notes">
+        <p class="notes-title">💡 Notes</p>
+        <ul id="notes-list" class="notes-list"><li>Source: Gimme Delicious (https://gimmedelicious.com/chili-lime-chicken-and-rice-meal-prep-bowls/)</li><li>Excellent for meal prep, stays fresh 4 days refrigerated.</li><li>Can customize with toppings like avocado, sour cream, or black beans.</li><li>Family favorite — rated 5/5.</li></ul>
+      </div>
+        </article>
+
+      </div>
+
+      <!-- Related Recipes -->
+      <section id="related-section" class="related-section" hidden aria-label="Related recipes">
+      <h2 class="related-title">You might also need</h2>
+      <div id="related-grid" class="related-grid">
+
+      </div>
+    </section>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Patrick's Recipe Book</strong> — family recipes, collected with love.</p>
+    </div>
+  </footer>
+
+  <script src="/js/recipe.js"></script>
+</body>
+</html>

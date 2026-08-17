@@ -90,7 +90,7 @@ Once confirmed:
 
 1. **Load** `data/recipes.json`
 2. **Check for duplicate ID** — if a recipe with this ID already exists, ask user to choose a different title
-3. **Create recipe object**:
+3. **Create recipe object**, stamping `dateAdded` with today's date (`YYYY-MM-DD`) — it drives the site's "Recently Added" sort, so it must reflect when the recipe is actually being added, not be left blank or copied from another entry:
    ```json
    {
      "id": "chickpea-salad",
@@ -103,10 +103,11 @@ Once confirmed:
      "relatedRecipes": [],
      "ingredientGroups": [...],
      "instructions": [...],
-     "notes": [...]
+     "notes": [...],
+     "dateAdded": "2026-08-17"
    }
    ```
-4. **Add to recipes array** in recipes.json
+4. **Add to recipes array** in recipes.json — position in the array doesn't matter, the site sorts alphabetically by default and never depends on JSON order. Append it wherever's convenient (end of the array is simplest).
 5. **Write back** to recipes.json with proper formatting (2-space indent)
 
 ## Step 7: Generate Image
@@ -125,7 +126,20 @@ If it fails, inform the user they can generate it later with:
 node scripts/generate-images.js --id=[recipe-id]
 ```
 
-## Step 8: Success Summary
+## Step 8: Rebuild Static Pages
+
+Run the static build script so the new recipe gets its own crawlable page and the
+homepage grid picks it up:
+
+```bash
+node scripts/build.js
+```
+
+This regenerates `recipes/[recipe-id]/index.html` and the `#recipe-grid` section of
+`index.html` from the current `data/recipes.json`. Run it after Step 7 (image
+generation), not before — the build output should reflect the final `image` path.
+
+## Step 9: Success Summary
 
 Display final success message:
 ```
@@ -169,8 +183,10 @@ If image generation fails:
 
 ## Files Modified
 
-- `data/recipes.json` — Recipe added to the recipes array
+- `data/recipes.json` — Recipe added to the recipes array, including `dateAdded`
 - `images/recipes/[id].jpg` — AI-generated image (if successful)
+- `recipes/[id]/index.html` — generated static recipe page (via `scripts/build.js`)
+- `index.html` — regenerated `#recipe-grid` section (via `scripts/build.js`)
 
 ## Example Workflow
 
@@ -211,6 +227,8 @@ Add this recipe? (y/n): y
 ✅  Recipe added to recipes.json
 📸  Generating AI image...
 ✅  Saved to images/recipes/chickpea-salad.jpg
+🏗️   Rebuilding static pages...
+✅  Generated recipes/chickpea-salad/index.html and updated index.html
 
 🎉  RECIPE ADDED SUCCESSFULLY!
 [displays success summary]

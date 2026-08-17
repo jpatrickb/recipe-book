@@ -29,19 +29,28 @@ const QUICK_TAGS = [
   { label: '🎂 No-Bake',     tag: 'no-bake' },
 ];
 
+const SORT_MODES = [
+  { value: 'alpha-asc',  label: 'Name (A–Z)' },
+  { value: 'alpha-desc', label: 'Name (Z–A)' },
+  { value: 'category',   label: 'Category' },
+  { value: 'recent',     label: 'Recently Added' },
+];
+
 let allRecipes = [];
 let activeCategory = 'all';
 let activeTag = null;
 let searchQuery = '';
+let sortMode = 'alpha-asc';
 let debounceTimer = null;
 
 async function init() {
   buildCategoryFilter();
   buildQuickTags();
+  buildSortControl();
   bindSearch();
 
   try {
-    const res = await fetch('./data/recipes.json');
+    const res = await fetch('/data/recipes.json');
     if (!res.ok) throw new Error('Failed to load recipes.json');
     const data = await res.json();
     allRecipes = data.recipes;
@@ -117,6 +126,52 @@ function buildQuickTags() {
   });
 }
 
+/* ---- Sort Control ---- */
+function buildSortControl() {
+  const container = document.getElementById('sort-control');
+  const select = document.createElement('select');
+  select.id = 'sort-select';
+  select.className = 'sort-select';
+  select.setAttribute('aria-label', 'Sort recipes');
+
+  SORT_MODES.forEach(({ value, label }) => {
+    const option = document.createElement('option');
+    option.value = value;
+    option.textContent = label;
+    select.appendChild(option);
+  });
+
+  select.value = sortMode;
+  select.addEventListener('change', () => {
+    sortMode = select.value;
+    renderGrid();
+  });
+
+  container.appendChild(select);
+}
+
+function sortRecipes(list) {
+  const sorted = [...list];
+  switch (sortMode) {
+    case 'alpha-desc':
+      sorted.sort((a, b) => b.title.localeCompare(a.title));
+      break;
+    case 'category':
+      sorted.sort((a, b) => {
+        const catCompare = (a.category || '').localeCompare(b.category || '');
+        return catCompare !== 0 ? catCompare : a.title.localeCompare(b.title);
+      });
+      break;
+    case 'recent':
+      sorted.sort((a, b) => (b.dateAdded || '').localeCompare(a.dateAdded || ''));
+      break;
+    case 'alpha-asc':
+    default:
+      sorted.sort((a, b) => a.title.localeCompare(b.title));
+  }
+  return sorted;
+}
+
 /* ---- Search ---- */
 function bindSearch() {
   const input = document.getElementById('search-input');
@@ -143,7 +198,7 @@ function bindSearch() {
 
 /* ---- Filter Logic ---- */
 function getFilteredRecipes() {
-  return allRecipes.filter(r => {
+  const filtered = allRecipes.filter(r => {
     if (activeCategory !== 'all' && r.category !== activeCategory) return false;
     if (activeTag && !r.tags.includes(activeTag)) return false;
     if (searchQuery) {
@@ -153,6 +208,7 @@ function getFilteredRecipes() {
     }
     return true;
   });
+  return sortRecipes(filtered);
 }
 
 /* ---- Render Grid ---- */
@@ -209,7 +265,7 @@ function buildCard(recipe) {
   // Outer link
   const link = document.createElement('a');
   link.className = 'recipe-card';
-  link.href = 'recipe.html?id=' + encodeURIComponent(recipe.id);
+  link.href = '/recipes/' + encodeURIComponent(recipe.id) + '/';
   link.setAttribute('aria-label', recipe.title);
 
   // Visual section
@@ -218,7 +274,7 @@ function buildCard(recipe) {
 
   if (recipe.image) {
     const img = document.createElement('img');
-    img.src = recipe.image;
+    img.src = '/' + recipe.image;
     img.alt = recipe.title;
     img.loading = 'lazy';
     visual.appendChild(img);

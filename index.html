@@ -7,14 +7,14 @@
   <meta name="description" content="A personal collection of family recipes — breakfasts, mains, sides, desserts, and more.">
   <meta property="og:title" content="Patrick's Recipe Book">
   <meta property="og:description" content="A personal collection of family recipes.">
-  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
 
   <!-- ===== HEADER ===== -->
   <header class="site-header">
     <div class="container">
-      <a class="site-logo" href="index.html" aria-label="Patrick's Recipe Book home">
+      <a class="site-logo" href="/" aria-label="Patrick's Recipe Book home">
         <span class="site-logo-icon">📖</span>
         <span class="site-logo-text">Patrick's <span>Recipe Book</span></span>
       </a>
@@ -60,14 +60,672 @@
         <p class="results-count" id="results-count" aria-live="polite">
           <strong>…</strong> recipes
         </p>
+        <div id="sort-control"></div>
       </div>
 
       <div id="recipe-grid" class="recipe-grid" role="list">
-        <div class="loading">
-          <div class="loading-spinner" aria-hidden="true"></div>
-          Loading recipes…
-        </div>
-      </div>
+        <!-- BUILD:GRID:START -->
+        <a class="recipe-card" href="/recipes/alfredo-sauce/" aria-label="Alfredo Sauce">
+          <div class="card-visual cat-mains"><img src="/images/recipes/alfredo-sauce.jpg" alt="Alfredo Sauce" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Alfredo Sauce</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4–6</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">italian</span><span class="inline-tag">pasta</span><span class="inline-tag">stovetop</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/apple-brickle-dip/" aria-label="Apple Brickle Dip">
+          <div class="card-visual cat-sides"><img src="/images/recipes/apple-brickle-dip.jpg" alt="Apple Brickle Dip" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Apple Brickle Dip</h3>
+            <div class="card-meta">
+              <span class="badge badge-sides">Sides &amp; Salads</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">dip</span><span class="inline-tag">no-cook</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/baked-fried-chicken/" aria-label="Baked Fried Chicken">
+          <div class="card-visual cat-mains"><img src="/images/recipes/baked-fried-chicken.jpg" alt="Baked Fried Chicken" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Baked Fried Chicken</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">american</span><span class="inline-tag">baked</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/baked-ham-sandwiches/" aria-label="Baked Ham Sandwiches">
+          <div class="card-visual cat-mains"><img src="/images/recipes/baked-ham-sandwiches.jpg" alt="Baked Ham Sandwiches" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Baked Ham Sandwiches</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 12</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">pork</span><span class="inline-tag">american</span><span class="inline-tag">baked</span><span class="inline-tag">sandwich</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/baked-hasselback-potatoes/" aria-label="Baked Hasselback Potatoes">
+          <div class="card-visual cat-sides"><img src="/images/recipes/baked-hasselback-potatoes.jpg" alt="Baked Hasselback Potatoes" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Baked Hasselback Potatoes</h3>
+            <div class="card-meta">
+              <span class="badge badge-sides">Sides &amp; Salads</span><span class="serves-badge">· Serves 4-6</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">vegetarian</span><span class="inline-tag">baked</span><span class="inline-tag">make-ahead</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/baked-mac-and-cheese/" aria-label="Baked Macaroni &amp; Cheese">
+          <div class="card-visual cat-mains"><img src="/images/recipes/baked-mac-and-cheese.jpg" alt="Baked Macaroni &amp; Cheese" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Baked Macaroni &amp; Cheese</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">pasta</span><span class="inline-tag">baked</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/baked-parmesan-crusted-chicken/" aria-label="Baked Parmesan Crusted Chicken">
+          <div class="card-visual cat-mains"><img src="/images/recipes/baked-parmesan-crusted-chicken.jpg" alt="Baked Parmesan Crusted Chicken" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Baked Parmesan Crusted Chicken</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">italian</span><span class="inline-tag">baked</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/balsamic-chicken-sandwiches/" aria-label="Balsamic Chicken Sandwiches">
+          <div class="card-visual cat-mains"><img src="/images/recipes/balsamic-chicken-sandwiches.jpg" alt="Balsamic Chicken Sandwiches" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Balsamic Chicken Sandwiches</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 6</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">italian</span><span class="inline-tag">grilled</span><span class="inline-tag">sandwich</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/beef-fajitas/" aria-label="Beef Fajitas">
+          <div class="card-visual cat-mains"><img src="/images/recipes/beef-fajitas.jpg" alt="Beef Fajitas" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Beef Fajitas</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">beef</span><span class="inline-tag">mexican</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/beef-stroganoff/" aria-label="Beef Stroganoff">
+          <div class="card-visual cat-mains"><img src="/images/recipes/beef-stroganoff.jpg" alt="Beef Stroganoff" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Beef Stroganoff</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4–6</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">beef</span><span class="inline-tag">american</span><span class="inline-tag">pasta</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/black-bean-tacos/" aria-label="Black Bean Tacos">
+          <div class="card-visual cat-mains"><img src="/images/recipes/black-bean-tacos.jpg" alt="Black Bean Tacos" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Black Bean Tacos</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 2</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">mexican</span><span class="inline-tag">vegetarian</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/browned-butter-pasta/" aria-label="Browned Butter with Mizithra Cheese Pasta">
+          <div class="card-visual cat-mains"><img src="/images/recipes/browned-butter-pasta.jpg" alt="Browned Butter with Mizithra Cheese Pasta" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Browned Butter with Mizithra Cheese Pasta</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">italian</span><span class="inline-tag">pasta</span><span class="inline-tag">stovetop</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/butternut-squash-risotto/" aria-label="Butternut Squash Risotto">
+          <div class="card-visual cat-mains"><img src="/images/recipes/butternut-squash-risotto.jpg" alt="Butternut Squash Risotto" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Butternut Squash Risotto</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">italian</span><span class="inline-tag">rice</span><span class="inline-tag">stovetop</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/cilantro-lime-ranch/" aria-label="Cafe Rio Cilantro Lime Ranch">
+          <div class="card-visual cat-sauces"><img src="/images/recipes/cilantro-lime-ranch.jpg" alt="Cafe Rio Cilantro Lime Ranch" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Cafe Rio Cilantro Lime Ranch</h3>
+            <div class="card-meta">
+              <span class="badge badge-sauces">Sauces &amp; Seasonings</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">mexican</span><span class="inline-tag">sauce</span><span class="inline-tag">dressing</span><span class="inline-tag">no-cook</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/calzone/" aria-label="Calzone">
+          <div class="card-visual cat-mains"><img src="/images/recipes/calzone.jpg" alt="Calzone" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Calzone</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">italian</span><span class="inline-tag">baked</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/cheesy-garlic-chicken-wraps/" aria-label="Cheesy Garlic Chicken Wraps">
+          <div class="card-visual cat-mains"><img src="/images/recipes/cheesy-garlic-chicken-wraps.jpg" alt="Cheesy Garlic Chicken Wraps" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Cheesy Garlic Chicken Wraps</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">quick</span><span class="inline-tag">make-ahead</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/chicken-alfredo/" aria-label="Chicken Alfredo">
+          <div class="card-visual cat-mains"><img src="/images/recipes/chicken-alfredo.jpg" alt="Chicken Alfredo" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Chicken Alfredo</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">italian</span><span class="inline-tag">pasta</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/chicken-and-broccoli-pasta/" aria-label="Chicken and Broccoli Pasta with White Sauce">
+          <div class="card-visual cat-mains"><img src="/images/recipes/chicken-and-broccoli-pasta.jpg" alt="Chicken and Broccoli Pasta with White Sauce" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Chicken and Broccoli Pasta with White Sauce</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 3</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">pasta</span><span class="inline-tag">chicken</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/chicken-burritos/" aria-label="Chicken Burritos">
+          <div class="card-visual cat-mains"><img src="/images/recipes/chicken-burritos.jpg" alt="Chicken Burritos" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Chicken Burritos</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">mexican</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/chicken-enchiladas/" aria-label="Chicken Enchiladas">
+          <div class="card-visual cat-mains"><img src="/images/recipes/chicken-enchiladas.jpg" alt="Chicken Enchiladas" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Chicken Enchiladas</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">mexican</span><span class="inline-tag">baked</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/chicken-fried-rice/" aria-label="Chicken Fried Rice">
+          <div class="card-visual cat-mains"><img src="/images/recipes/chicken-fried-rice.jpg" alt="Chicken Fried Rice" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Chicken Fried Rice</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 2-3</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">asian</span><span class="inline-tag">chicken</span><span class="inline-tag">quick</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/chicken-pillows/" aria-label="Chicken Pillows">
+          <div class="card-visual cat-mains"><img src="/images/recipes/chicken-pillows.jpg" alt="Chicken Pillows" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Chicken Pillows</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 2–4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">american</span><span class="inline-tag">baked</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/chickpea-salad/" aria-label="Chickpea Salad">
+          <div class="card-visual cat-sides"><img src="/images/recipes/chickpea-salad.jpg" alt="Chickpea Salad" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Chickpea Salad</h3>
+            <div class="card-meta">
+              <span class="badge badge-sides">Sides &amp; Salads</span><span class="serves-badge">· Serves 4–6</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">salad</span><span class="inline-tag">vegetarian</span><span class="inline-tag">no-cook</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/chili-lime-chicken-bowls/" aria-label="Chili-Lime Chicken Bowls">
+          <div class="card-visual cat-mains"><img src="/images/recipes/chili-lime-chicken-bowls.jpg" alt="Chili-Lime Chicken Bowls" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Chili-Lime Chicken Bowls</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">mexican</span><span class="inline-tag">chicken</span><span class="inline-tag">make-ahead</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/creamy-coconut-curry-lentils-with-spinach/" aria-label="Creamy Coconut Curry Lentils with Spinach">
+          <div class="card-visual cat-mains"><img src="/images/recipes/creamy-coconut-curry-lentils-with-spinach.jpg" alt="Creamy Coconut Curry Lentils with Spinach" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Creamy Coconut Curry Lentils with Spinach</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 3-4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">indian</span><span class="inline-tag">vegetarian</span><span class="inline-tag">make-ahead</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/creamy-tomato-conchiglie-pasta/" aria-label="Creamy Tomato Conchiglie Pasta">
+          <div class="card-visual cat-mains"><img src="/images/recipes/creamy-tomato-conchiglie-pasta.jpg" alt="Creamy Tomato Conchiglie Pasta" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Creamy Tomato Conchiglie Pasta</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4-5</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">pasta</span><span class="inline-tag">vegetarian</span><span class="inline-tag">make-ahead</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/creamy-tomato-rosa-chicken-pasta/" aria-label="Creamy Tomato Rosa Chicken Pasta">
+          <div class="card-visual cat-mains"><img src="/images/recipes/creamy-tomato-rosa-chicken-pasta.jpg" alt="Creamy Tomato Rosa Chicken Pasta" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Creamy Tomato Rosa Chicken Pasta</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">pasta</span><span class="inline-tag">stovetop</span><span class="inline-tag">chicken</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/creamy-tuscan-chicken/" aria-label="Creamy Tuscan Chicken">
+          <div class="card-visual cat-mains"><img src="/images/recipes/creamy-tuscan-chicken.jpg" alt="Creamy Tuscan Chicken" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Creamy Tuscan Chicken</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">italian</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/crepes/" aria-label="Crepes">
+          <div class="card-visual cat-breakfast"><img src="/images/recipes/crepes.jpg" alt="Crepes" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Crepes</h3>
+            <div class="card-meta">
+              <span class="badge badge-breakfast">Breakfast</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">stovetop</span><span class="inline-tag">quick</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/fish-tacos/" aria-label="Fish Tacos">
+          <div class="card-visual cat-mains"><img src="/images/recipes/fish-tacos.jpg" alt="Fish Tacos" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Fish Tacos</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">fish</span><span class="inline-tag">mexican</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/french-silk-pie/" aria-label="French Silk Pie">
+          <div class="card-visual cat-desserts"><img src="/images/recipes/french-silk-pie.jpg" alt="French Silk Pie" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">French Silk Pie</h3>
+            <div class="card-meta">
+              <span class="badge badge-desserts">Desserts</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">chocolate</span><span class="inline-tag">no-bake</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/fresh-peach-pie/" aria-label="Fresh Peach Pie">
+          <div class="card-visual cat-desserts"><img src="/images/recipes/fresh-peach-pie.jpg" alt="Fresh Peach Pie" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Fresh Peach Pie</h3>
+            <div class="card-meta">
+              <span class="badge badge-desserts">Desserts</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">fruit</span><span class="inline-tag">vegetarian</span><span class="inline-tag">no-bake</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/frog-eye-salad/" aria-label="Frog-Eye Salad">
+          <div class="card-visual cat-sides"><img src="/images/recipes/frog-eye-salad.jpg" alt="Frog-Eye Salad" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Frog-Eye Salad</h3>
+            <div class="card-meta">
+              <span class="badge badge-sides">Sides &amp; Salads</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">salad</span><span class="inline-tag">vegetarian</span><span class="inline-tag">make-ahead</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/fruit-salad/" aria-label="Fruit Salad">
+          <div class="card-visual cat-sides"><img src="/images/recipes/fruit-salad.jpg" alt="Fruit Salad" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Fruit Salad</h3>
+            <div class="card-meta">
+              <span class="badge badge-sides">Sides &amp; Salads</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">salad</span><span class="inline-tag">no-cook</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/garam-masala/" aria-label="Garam Masala">
+          <div class="card-visual cat-sauces"><img src="/images/recipes/garam-masala.jpg" alt="Garam Masala" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Garam Masala</h3>
+            <div class="card-meta">
+              <span class="badge badge-sauces">Sauces &amp; Seasonings</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">indian</span><span class="inline-tag">spice-blend</span><span class="inline-tag">no-cook</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/garbanzo-bean-curry/" aria-label="Garbanzo Bean Curry">
+          <div class="card-visual cat-mains"><img src="/images/recipes/garbanzo-bean-curry.jpg" alt="Garbanzo Bean Curry" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Garbanzo Bean Curry</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 2-3</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">indian</span><span class="inline-tag">vegetarian</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/german-pancakes/" aria-label="German Pancakes">
+          <div class="card-visual cat-breakfast"><img src="/images/recipes/german-pancakes.jpg" alt="German Pancakes" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">German Pancakes</h3>
+            <div class="card-meta">
+              <span class="badge badge-breakfast">Breakfast</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">baked</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/ginger-snaps/" aria-label="Ginger Snaps">
+          <div class="card-visual cat-desserts"><img src="/images/recipes/ginger-snaps.jpg" alt="Ginger Snaps" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Ginger Snaps</h3>
+            <div class="card-meta">
+              <span class="badge badge-desserts">Desserts</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">cookies</span><span class="inline-tag">baked</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/ham-paninis/" aria-label="Ham Paninis">
+          <div class="card-visual cat-mains"><img src="/images/recipes/ham-paninis.jpg" alt="Ham Paninis" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Ham Paninis</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">pork</span><span class="inline-tag">american</span><span class="inline-tag">sandwich</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/hawaiian-haystack/" aria-label="Hawaiian Haystack">
+          <div class="card-visual cat-mains"><img src="/images/recipes/hawaiian-haystack.jpg" alt="Hawaiian Haystack" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Hawaiian Haystack</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">american</span><span class="inline-tag">rice</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/hot-fudge-sauce/" aria-label="Hot Fudge Sauce">
+          <div class="card-visual cat-desserts"><img src="/images/recipes/hot-fudge-sauce.jpg" alt="Hot Fudge Sauce" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Hot Fudge Sauce</h3>
+            <div class="card-meta">
+              <span class="badge badge-desserts">Desserts</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">chocolate</span><span class="inline-tag">stovetop</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/indian-butter-chicken/" aria-label="Indian Butter Chicken">
+          <div class="card-visual cat-mains"><img src="/images/recipes/indian-butter-chicken.jpg" alt="Indian Butter Chicken" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Indian Butter Chicken</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">indian</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/lemon-bars/" aria-label="Lemon Bars">
+          <div class="card-visual cat-desserts"><img src="/images/recipes/lemon-bars.jpg" alt="Lemon Bars" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Lemon Bars</h3>
+            <div class="card-meta">
+              <span class="badge badge-desserts">Desserts</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">citrus</span><span class="inline-tag">baked</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/lemon-lime-delight-bars/" aria-label="Lemon-Lime Delight Bars">
+          <div class="card-visual cat-desserts"><img src="/images/recipes/lemon-lime-delight-bars.jpg" alt="Lemon-Lime Delight Bars" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Lemon-Lime Delight Bars</h3>
+            <div class="card-meta">
+              <span class="badge badge-desserts">Desserts</span><span class="serves-badge">· Serves ~24 bars</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">baked</span><span class="inline-tag">desserts</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/maple-syrup/" aria-label="Maple Syrup">
+          <div class="card-visual cat-breakfast"><img src="/images/recipes/maple-syrup.jpg" alt="Maple Syrup" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Maple Syrup</h3>
+            <div class="card-meta">
+              <span class="badge badge-breakfast">Breakfast</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">quick</span><span class="inline-tag">vegetarian</span><span class="inline-tag">no-cook</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/marinated-grilled-chicken/" aria-label="Marinated Grilled Chicken (Xango Chicken)">
+          <div class="card-visual cat-mains"><img src="/images/recipes/marinated-grilled-chicken.jpg" alt="Marinated Grilled Chicken (Xango Chicken)" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Marinated Grilled Chicken (Xango Chicken)</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4–6</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">asian</span><span class="inline-tag">grilled</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/oatmeal-with-toppings/" aria-label="Oatmeal with Toppings">
+          <div class="card-visual cat-breakfast"><img src="/images/recipes/oatmeal-with-toppings.jpg" alt="Oatmeal with Toppings" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Oatmeal with Toppings</h3>
+            <div class="card-meta">
+              <span class="badge badge-breakfast">Breakfast</span><span class="serves-badge">· Serves 1</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">quick</span><span class="inline-tag">vegetarian</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/ham-cheese-and-veggie-omelet/" aria-label="Omelets with Ham, Cheese &amp; Veggies">
+          <div class="card-visual cat-breakfast"><img src="/images/recipes/ham-cheese-and-veggie-omelet.jpg" alt="Omelets with Ham, Cheese &amp; Veggies" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Omelets with Ham, Cheese &amp; Veggies</h3>
+            <div class="card-meta">
+              <span class="badge badge-breakfast">Breakfast</span><span class="serves-badge">· Serves 1</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">quick</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/one-pan-dumplings-with-greens/" aria-label="One-Pan Dumplings With Greens">
+          <div class="card-visual cat-mains"><img src="/images/recipes/one-pan-dumplings-with-greens.jpg" alt="One-Pan Dumplings With Greens" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">One-Pan Dumplings With Greens</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">asian</span><span class="inline-tag">stovetop</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/one-pot-french-onion-pasta/" aria-label="One-Pot French Onion Pasta">
+          <div class="card-visual cat-mains"><img src="/images/recipes/one-pot-french-onion-pasta.jpg" alt="One-Pot French Onion Pasta" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">One-Pot French Onion Pasta</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 3-4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">pasta</span><span class="inline-tag">vegetarian</span><span class="inline-tag">stovetop</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/orange-chicken/" aria-label="Orange Chicken">
+          <div class="card-visual cat-mains"><img src="/images/recipes/orange-chicken.jpg" alt="Orange Chicken" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Orange Chicken</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 6</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">asian</span><span class="inline-tag">baked</span><span class="inline-tag">rice</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/peanut-butter-fudge/" aria-label="Peanut Butter Fudge">
+          <div class="card-visual cat-desserts"><img src="/images/recipes/peanut-butter-fudge.jpg" alt="Peanut Butter Fudge" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Peanut Butter Fudge</h3>
+            <div class="card-meta">
+              <span class="badge badge-desserts">Desserts</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">no-bake</span><span class="inline-tag">quick</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/pesto/" aria-label="Pesto">
+          <div class="card-visual cat-sauces"><img src="/images/recipes/pesto.jpg" alt="Pesto" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Pesto</h3>
+            <div class="card-meta">
+              <span class="badge badge-sauces">Sauces &amp; Seasonings</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">italian</span><span class="inline-tag">sauce</span><span class="inline-tag">no-cook</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/philly-cheesesteak-sloppy-joes/" aria-label="Philly Cheesesteak Sloppy Joe&#39;s">
+          <div class="card-visual cat-mains"><img src="/images/recipes/philly-cheesesteak-sloppy-joes.jpg" alt="Philly Cheesesteak Sloppy Joe&#39;s" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Philly Cheesesteak Sloppy Joe&#39;s</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 8</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">beef</span><span class="inline-tag">american</span><span class="inline-tag">stovetop</span><span class="inline-tag">sandwich</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/pretzel-jello-salad/" aria-label="Pretzel Jello Salad">
+          <div class="card-visual cat-desserts"><img src="/images/recipes/pretzel-jello-salad.jpg" alt="Pretzel Jello Salad" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Pretzel Jello Salad</h3>
+            <div class="card-meta">
+              <span class="badge badge-desserts">Desserts</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">fruit</span><span class="inline-tag">baked</span><span class="inline-tag">make-ahead</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/pumpkin-pancakes/" aria-label="Pumpkin Pancakes with Buttermilk Syrup">
+          <div class="card-visual cat-breakfast"><img src="/images/recipes/pumpkin-pancakes.jpg" alt="Pumpkin Pancakes with Buttermilk Syrup" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Pumpkin Pancakes with Buttermilk Syrup</h3>
+            <div class="card-meta">
+              <span class="badge badge-breakfast">Breakfast</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">stovetop</span><span class="inline-tag">vegetarian</span><span class="inline-tag">fall</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/queso-mac-and-cheese/" aria-label="Queso Mac &amp; Cheese">
+          <div class="card-visual cat-mains"><img src="/images/recipes/queso-mac-and-cheese.jpg" alt="Queso Mac &amp; Cheese" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Queso Mac &amp; Cheese</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">chicken</span><span class="inline-tag">mexican</span><span class="inline-tag">pasta</span><span class="inline-tag">slow-cooker</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/quiche/" aria-label="Quiche">
+          <div class="card-visual cat-mains"><img src="/images/recipes/quiche.jpg" alt="Quiche" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Quiche</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 4–6</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">pork</span><span class="inline-tag">american</span><span class="inline-tag">baked</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/rice-and-beans-with-vegetables/" aria-label="Rice &amp; Beans with Vegetables">
+          <div class="card-visual cat-mains"><img src="/images/recipes/rice-and-beans-with-vegetables.jpg" alt="Rice &amp; Beans with Vegetables" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Rice &amp; Beans with Vegetables</h3>
+            <div class="card-meta">
+              <span class="badge badge-mains">Mains</span><span class="serves-badge">· Serves 3-4</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">vegetarian</span><span class="inline-tag">stovetop</span><span class="inline-tag">make-ahead</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/roasted-potatoes-and-green-beans/" aria-label="Roasted Potatoes and Green Beans">
+          <div class="card-visual cat-sides"><img src="/images/recipes/roasted-potatoes-and-green-beans.jpg" alt="Roasted Potatoes and Green Beans" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Roasted Potatoes and Green Beans</h3>
+            <div class="card-meta">
+              <span class="badge badge-sides">Sides &amp; Salads</span><span class="serves-badge">· Serves 2-3</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">vegetarian</span><span class="inline-tag">baked</span><span class="inline-tag">quick</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/shannons-raspberry-cake/" aria-label="Shannon&#39;s Raspberry Cake">
+          <div class="card-visual cat-desserts"><img src="/images/recipes/shannons-raspberry-cake.jpg" alt="Shannon&#39;s Raspberry Cake" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Shannon&#39;s Raspberry Cake</h3>
+            <div class="card-meta">
+              <span class="badge badge-desserts">Desserts</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">fruit</span><span class="inline-tag">baked</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/spanish-rice/" aria-label="Spanish Rice">
+          <div class="card-visual cat-sides"><img src="/images/recipes/spanish-rice.jpg" alt="Spanish Rice" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Spanish Rice</h3>
+            <div class="card-meta">
+              <span class="badge badge-sides">Sides &amp; Salads</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">mexican</span><span class="inline-tag">rice</span><span class="inline-tag">stovetop</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/spinach-salad/" aria-label="Spinach Salad">
+          <div class="card-visual cat-sides"><img src="/images/recipes/spinach-salad.jpg" alt="Spinach Salad" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Spinach Salad</h3>
+            <div class="card-meta">
+              <span class="badge badge-sides">Sides &amp; Salads</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">salad</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/topgolf-queso-french-fries/" aria-label="Topgolf Queso French Fries">
+          <div class="card-visual cat-sides"><img src="/images/recipes/topgolf-queso-french-fries.jpg" alt="Topgolf Queso French Fries" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Topgolf Queso French Fries</h3>
+            <div class="card-meta">
+              <span class="badge badge-sides">Sides &amp; Salads</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">american</span><span class="inline-tag">baked</span><span class="inline-tag">appetizer</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/turkish-flatbread/" aria-label="Turkish Flatbread (Naan Bread)">
+          <div class="card-visual cat-sides"><img src="/images/recipes/turkish-flatbread.jpg" alt="Turkish Flatbread (Naan Bread)" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Turkish Flatbread (Naan Bread)</h3>
+            <div class="card-meta">
+              <span class="badge badge-sides">Sides &amp; Salads</span><span class="serves-badge">· Serves 20 pieces</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">middle-eastern</span><span class="inline-tag">bread</span><span class="inline-tag">stovetop</span><span class="inline-tag">vegetarian</span></div>
+          </div>
+        </a>
+        <a class="recipe-card" href="/recipes/ube-biko/" aria-label="Ube Biko with Custard Topping">
+          <div class="card-visual cat-desserts"><img src="/images/recipes/ube-biko.jpg" alt="Ube Biko with Custard Topping" loading="lazy"></div>
+          <div class="card-body">
+            <h3 class="card-title">Ube Biko with Custard Topping</h3>
+            <div class="card-meta">
+              <span class="badge badge-desserts">Desserts</span><span class="serves-badge">· Serves 12</span>
+            </div>
+            <div class="card-tags"><span class="inline-tag">filipino</span><span class="inline-tag">baked</span><span class="inline-tag">vegetarian</span><span class="inline-tag">make-ahead</span></div>
+          </div>
+        </a>
+        <!-- BUILD:GRID:END -->
 
     </div>
   </main>
@@ -79,6 +737,6 @@
     </div>
   </footer>
 
-  <script src="js/app.js"></script>
+  <script src="/js/app.js"></script>
 </body>
 </html>
