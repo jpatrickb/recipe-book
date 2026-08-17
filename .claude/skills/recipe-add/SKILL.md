@@ -9,6 +9,12 @@ allowed-tools: Read Edit Write Bash
 
 Guide the user through adding a new recipe seamlessly. This skill handles recipe validation, JSON updates, and automatic image generation using the Gemini API.
 
+## Lessons
+
+- **Image prompts must describe the finished, plated dish, not raw ingredients.** Feeding the first few raw ingredient-list strings into the prompt (with quantities and prep verbs like "cut in half horizontally") produced mise-en-place/raw-ingredient photos, not food photography. `scripts/generate-images.js`'s `buildPrompt()` now uses the recipe's *last instruction step* as the visual cue (it almost always describes the finished/serving state) and explicitly asks for "the finished, fully cooked dish, plated and ready to eat" while excluding raw/uncooked shots.
+- **If the auto-built prompt still gets a specific dish wrong** (wrong cut/shape of the protein, too little visible sauce, etc. — compare against a reference photo if the user has one), don't distort the general heuristic to fix one recipe. Use `node scripts/generate-images.js --id=<id> --force --prompt="..."` to hand-tune that one image instead.
+- Recipe position in the `recipes` array never matters — the site sorts client-side (`js/app.js`), and `scripts/build.js` always renders the homepage grid sorted alphabetically regardless of JSON order.
+
 ## Step 1: Gather Recipe Metadata
 
 Start by asking the user for basic recipe information:
