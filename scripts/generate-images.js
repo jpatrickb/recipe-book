@@ -27,6 +27,9 @@
  *
  *   Combine flags:
  *     node generate-images.js --id=crepes --force
+ *
+ *   Override the auto-built prompt for one recipe (requires --id and --force):
+ *     node generate-images.js --id=crepes --force --prompt="..."
  */
 
 const fs = require('fs');
@@ -46,14 +49,19 @@ const args = Object.fromEntries(
   process.argv.slice(2)
     .filter(a => a.startsWith('--'))
     .map(a => {
-      const [k, v] = a.slice(2).split('=');
-      return [k, v ?? true];
+      const body = a.slice(2);
+      const eqIdx = body.indexOf('=');
+      return eqIdx === -1 ? [body, true] : [body.slice(0, eqIdx), body.slice(eqIdx + 1)];
     })
 );
 
 const TARGET_ID = args['id'] ?? null;
 const FORCE     = args['force'] === true;
 const DRY_RUN   = args['dry-run'] === true;
+// One-off hand-tuned prompt, e.g. when the auto-built prompt gets a dish wrong
+// (proportions, cut of meat, sauce amount, etc.) and a quick fix in buildPrompt()
+// isn't the right general-purpose lever. Only applies with --id=<recipe>.
+const PROMPT_OVERRIDE = typeof args['prompt'] === 'string' ? args['prompt'] : null;
 
 /* ---- Prompt builder ---- */
 function buildPrompt(recipe) {
@@ -186,7 +194,7 @@ async function main() {
   let failCount = 0;
 
   for (const recipe of toProcess) {
-    const prompt = buildPrompt(recipe);
+    const prompt = PROMPT_OVERRIDE ?? buildPrompt(recipe);
     const imagePath = path.join(IMAGES_DIR, `${recipe.id}.jpg`);
     const relativeImagePath = `images/recipes/${recipe.id}.jpg`;
 
@@ -223,7 +231,7 @@ async function main() {
 
   // Write updated recipes.json back
   if (!DRY_RUN && successCount > 0) {
-    fs.writeFileSync(RECIPES_JSON, JSON.stringify(recipesData, null, 2));
+    fs.writeFileSync(RECIPES_JSON, JSON.stringify(recipesData, null, 2) + '\n');
     console.log(`\n✅  Updated recipes.json with ${successCount} new image path(s).`);
   }
 
