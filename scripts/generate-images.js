@@ -78,19 +78,23 @@ function buildPrompt(recipe) {
     context = 'minimalist asian food photography, clean presentation';
   }
 
-  // 2. Extract key ingredients (first 3-4 often define the look)
-  const keyIngredients = recipe.ingredientGroups
-    .flatMap(g => g.items)
-    .slice(0, 3)
-    .join(', ');
+  // 2. Use the final instruction step as a serving/plating cue — recipes almost
+  //    always end on how the finished dish looks or is served (e.g. "golden and
+  //    bubbly", "serve with salsa and guacamole"), unlike the ingredient list,
+  //    which is full of raw-prep language ("cut in half", "at room temperature")
+  //    that was previously feeding the model raw-ingredient/mise-en-place shots
+  //    instead of the finished dish.
+  const finishingCue = (recipe.instructions || [])[recipe.instructions.length - 1] ?? '';
 
   // 3. Assemble the final prompt
   return (
     `Professional ${context}, ` +
-    `featuring ${recipe.title} ${recipe.emoji}. ` +
-    (keyIngredients ? `Specifically showing ${keyIngredients}. ` : '') +
+    `featuring the finished, fully cooked ${recipe.title} ${recipe.emoji}, plated and ready to eat. ` +
+    (finishingCue ? `${finishingCue} ` : '') +
     `Shallow depth of field, appetizing presentation, warm earthy tones, ` +
-    `photorealistic, high resolution, no text or labels.`
+    `photorealistic, high resolution, no text or labels. ` +
+    `Do not show raw or uncooked ingredients, raw meat, or a mise en place / prep shot — ` +
+    `this must depict the completed, cooked dish as it would look served at the table.`
   );
 }
 

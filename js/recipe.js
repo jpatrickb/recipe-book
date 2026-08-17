@@ -57,6 +57,7 @@ function renderRecipe(recipe, recipeMap) {
   // Hero visual
   const heroVisual = document.getElementById('hero-visual');
   heroVisual.className = 'hero-visual cat-' + category;
+  heroVisual.textContent = '';
 
   if (recipe.image) {
     const img = document.createElement('img');
@@ -88,6 +89,7 @@ function renderRecipe(recipe, recipeMap) {
 
   // Tags
   const tagsContainer = document.getElementById('recipe-tags');
+  tagsContainer.textContent = '';
   (recipe.tags || []).forEach(tag => {
     const chip = document.createElement('span');
     chip.className = 'inline-tag';
@@ -106,6 +108,7 @@ function renderRecipe(recipe, recipeMap) {
     const notesSection = document.getElementById('recipe-notes');
     notesSection.hidden = false;
     const list = document.getElementById('notes-list');
+    list.textContent = '';
     recipe.notes.forEach(note => {
       const li = document.createElement('li');
       li.textContent = note;
@@ -118,6 +121,7 @@ function renderRecipe(recipe, recipeMap) {
     const relatedSection = document.getElementById('related-section');
     const relatedGrid = document.getElementById('related-grid');
     relatedSection.hidden = false;
+    relatedGrid.textContent = '';
 
     recipe.relatedRecipes.forEach(id => {
       const related = recipeMap[id];
