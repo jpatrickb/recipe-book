@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Honey Pecan Granola — Patrick's Recipe Book</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="/" aria-label="Patrick's Recipe Book home">
+        <span class="site-logo-icon">📖</span>
+        <span class="site-logo-text">Patrick's <span>Recipe Book</span></span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+    <div class="container" id="recipe-content">
+
+      <!-- Back button -->
+      <nav class="back-nav" aria-label="Breadcrumb">
+        <a class="back-btn" href="/">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M10 12L6 8l4-4"/>
+          </svg>
+          All Recipes
+        </a>
+      </nav>
+
+      <!-- Recipe Hero -->
+      <section class="recipe-hero" aria-label="Recipe overview">
+        <div id="hero-visual" class="hero-visual cat-breakfast">
+          <img src="/images/recipes/honey-pecan-granola.jpg" alt="Honey Pecan Granola">
+        </div>
+
+        <h1 id="recipe-title" class="recipe-title">Honey Pecan Granola</h1>
+
+        <div class="recipe-meta">
+          <span id="recipe-badge" class="badge badge-breakfast">Breakfast</span>
+          <span id="recipe-serves" class="serves-badge">🍴 Serves 12</span>
+        </div>
+
+        <div id="recipe-tags" class="recipe-tags">
+          <span class="inline-tag">baked</span><span class="inline-tag">make-ahead</span><span class="inline-tag">vegetarian</span>
+        </div>
+      </section>
+
+      <!-- Action Buttons -->
+      <div class="recipe-actions no-print">
+        <button id="check-reset" class="btn btn-outline" aria-label="Uncheck all ingredients">
+          <span aria-hidden="true">↺</span> Reset checklist
+        </button>
+        <button class="btn btn-outline" onclick="window.print()" aria-label="Print this recipe">
+          <span aria-hidden="true">🖨</span> Print
+        </button>
+      </div>
+
+      <!-- Recipe Body: Ingredients + Instructions -->
+      <div class="recipe-body">
+
+        <!-- Ingredients -->
+        <aside class="ingredients-panel" aria-label="Ingredients">
+          <h2 class="panel-title">Ingredients</h2>
+          <div id="ingredients-container">
+            
+    <ul class="ingredient-list">
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">4 cups old-fashioned oats</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 cup pecans, roughly chopped</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/4 cup chia seeds</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 Tbsp brown sugar</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 tsp ground cinnamon</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/2 tsp salt</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/3 cup coconut oil, melted</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/4 cup honey</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/4 cup maple syrup</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 tsp vanilla extract</span>
+      </li>
+    </ul>
+          </div>
+        </aside>
+
+        <!-- Instructions -->
+        <article aria-label="Instructions">
+          <h2 class="panel-title">Instructions</h2>
+          <ol id="instructions-list" class="instructions-list" aria-label="Step-by-step instructions">
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">1</span>
+        <p class="step-text">Heat oven to 300°F. Line a rimmed sheet pan with parchment.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">2</span>
+        <p class="step-text">In a large bowl, stir together oats, pecans, chia seeds, brown sugar, cinnamon, and salt.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">3</span>
+        <p class="step-text">In a smaller bowl, whisk the melted coconut oil, honey, maple syrup, and vanilla until smooth.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">4</span>
+        <p class="step-text">Pour the wet over the dry and stir until every oat is coated — 30 seconds longer than feels necessary. Dry patches are what turn into loose, dusty granola.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">5</span>
+        <p class="step-text">Spread on the sheet pan and press flat with the back of a spatula. Pressing is what makes clusters.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">6</span>
+        <p class="step-text">Bake 40–45 minutes, rotating the pan once at 20 minutes. Don&#39;t stir if you want big clusters; stir every 15 minutes if you&#39;d rather have loose granola. It will still look slightly soft when done — it crisps as it cools.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">7</span>
+        <p class="step-text">Cool completely on the pan, undisturbed, about an hour. Then break into clusters.</p>
+      </li>
+          </ol>
+
+          <!-- Notes -->
+          <div id="recipe-notes" class="recipe-notes">
+        <p class="notes-title">💡 Notes</p>
+        <ul id="notes-list" class="notes-list"><li>Makes about 6 cups (12 servings of 1/2 cup). Prep 10 minutes, bake 45 minutes, cool 1 hour.</li><li>Store airtight at room temperature for 2–3 weeks, or freeze up to 3 months. The pecans set the limit — their oils go rancid before the granola goes stale.</li></ul>
+      </div>
+        </article>
+
+      </div>
+
+      <!-- Related Recipes -->
+      <section id="related-section" class="related-section" hidden aria-label="Related recipes">
+      <h2 class="related-title">You might also need</h2>
+      <div id="related-grid" class="related-grid">
+
+      </div>
+    </section>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Patrick's Recipe Book</strong> — family recipes, collected with love.</p>
+    </div>
+  </footer>
+
+  <script src="/js/recipe.js"></script>
+</body>
+</html>

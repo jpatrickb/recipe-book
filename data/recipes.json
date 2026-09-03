@@ -2720,6 +2720,51 @@
         "Store in an airtight container for 2–3 days; reheat in the microwave."
       ],
       "dateAdded": "2026-06-29"
+    },
+    {
+      "id": "honey-pecan-granola",
+      "title": "Honey Pecan Granola",
+      "emoji": "🌾",
+      "category": "breakfast",
+      "tags": [
+        "baked",
+        "make-ahead",
+        "vegetarian"
+      ],
+      "serves": "12",
+      "image": "images/recipes/honey-pecan-granola.jpg",
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "4 cups old-fashioned oats",
+            "1 cup pecans, roughly chopped",
+            "1/4 cup chia seeds",
+            "2 Tbsp brown sugar",
+            "1 tsp ground cinnamon",
+            "1/2 tsp salt",
+            "1/3 cup coconut oil, melted",
+            "1/4 cup honey",
+            "1/4 cup maple syrup",
+            "2 tsp vanilla extract"
+          ]
+        }
+      ],
+      "instructions": [
+        "Heat oven to 300°F. Line a rimmed sheet pan with parchment.",
+        "In a large bowl, stir together oats, pecans, chia seeds, brown sugar, cinnamon, and salt.",
+        "In a smaller bowl, whisk the melted coconut oil, honey, maple syrup, and vanilla until smooth.",
+        "Pour the wet over the dry and stir until every oat is coated — 30 seconds longer than feels necessary. Dry patches are what turn into loose, dusty granola.",
+        "Spread on the sheet pan and press flat with the back of a spatula. Pressing is what makes clusters.",
+        "Bake 40–45 minutes, rotating the pan once at 20 minutes. Don't stir if you want big clusters; stir every 15 minutes if you'd rather have loose granola. It will still look slightly soft when done — it crisps as it cools.",
+        "Cool completely on the pan, undisturbed, about an hour. Then break into clusters."
+      ],
+      "notes": [
+        "Makes about 6 cups (12 servings of 1/2 cup). Prep 10 minutes, bake 45 minutes, cool 1 hour.",
+        "Store airtight at room temperature for 2–3 weeks, or freeze up to 3 months. The pecans set the limit — their oils go rancid before the granola goes stale."
+      ],
+      "dateAdded": "2026-09-03"
     }
   ]
 }
