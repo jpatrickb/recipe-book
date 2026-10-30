@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sausage Gnocchi Soup — Patrick's Recipe Book</title>
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <header class="site-header">
+    <div class="container">
+      <a class="site-logo" href="/" aria-label="Patrick's Recipe Book home">
+        <span class="site-logo-icon">📖</span>
+        <span class="site-logo-text">Patrick's <span>Recipe Book</span></span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ===== MAIN CONTENT ===== -->
+  <main class="main-content">
+    <div class="container" id="recipe-content">
+
+      <!-- Back button -->
+      <nav class="back-nav" aria-label="Breadcrumb">
+        <a class="back-btn" href="/">
+          <svg width="16" height="16" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M10 12L6 8l4-4"/>
+          </svg>
+          All Recipes
+        </a>
+      </nav>
+
+      <!-- Recipe Hero -->
+      <section class="recipe-hero" aria-label="Recipe overview">
+        <div id="hero-visual" class="hero-visual cat-mains">
+          <span class="hero-emoji">🍲</span>
+        </div>
+
+        <h1 id="recipe-title" class="recipe-title">Sausage Gnocchi Soup</h1>
+
+        <div class="recipe-meta">
+          <span id="recipe-badge" class="badge badge-mains">Mains</span>
+          <span id="recipe-serves" class="serves-badge" style="display:none"></span>
+        </div>
+
+        <div id="recipe-tags" class="recipe-tags">
+          <span class="inline-tag">soup</span><span class="inline-tag">sausage</span><span class="inline-tag">gnocchi</span><span class="inline-tag">stovetop</span><span class="inline-tag">one-pot</span>
+        </div>
+      </section>
+
+      <!-- Action Buttons -->
+      <div class="recipe-actions no-print">
+        <button id="check-reset" class="btn btn-outline" aria-label="Uncheck all ingredients">
+          <span aria-hidden="true">↺</span> Reset checklist
+        </button>
+        <button class="btn btn-outline" onclick="window.print()" aria-label="Print this recipe">
+          <span aria-hidden="true">🖨</span> Print
+        </button>
+      </div>
+
+      <!-- Recipe Body: Ingredients + Instructions -->
+      <div class="recipe-body">
+
+        <!-- Ingredients -->
+        <aside class="ingredients-panel" aria-label="Ingredients">
+          <h2 class="panel-title">Ingredients</h2>
+          <div id="ingredients-container">
+            
+    <ul class="ingredient-list">
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 lb ground Italian sausage</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 medium yellow onion, finely diced</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">4 cloves garlic, minced</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2 tsp Italian seasoning</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/2 tsp black pepper</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/2 tsp red pepper flakes</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">3 Tbsp tomato paste</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/2 cup sun-dried tomatoes, oil-packed, drained and chopped</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">3 Tbsp flour</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">2/3 cup dry white wine (or 2/3 cup extra chicken stock + 1 Tbsp lemon juice)</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">5 cups chicken stock, low-sodium preferred</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 1/2 cups heavy cream</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1 lb potato gnocchi (DeLallo preferred)</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">3 cups baby spinach</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">1/2 cup freshly grated Parmesan, plus more for serving</span>
+      </li>
+      <li class="ingredient-item" role="checkbox" aria-checked="false" tabindex="0">
+        <span class="ingredient-checkbox" aria-hidden="true"></span>
+        <span class="ingredient-text">Salt to taste</span>
+      </li>
+    </ul>
+          </div>
+        </aside>
+
+        <!-- Instructions -->
+        <article aria-label="Instructions">
+          <h2 class="panel-title">Instructions</h2>
+          <ol id="instructions-list" class="instructions-list" aria-label="Step-by-step instructions">
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">1</span>
+        <p class="step-text">Brown the sausage in a Dutch oven or stockpot over medium-low heat, breaking it into crumbles. Move to a paper-towel-lined plate, leaving about 1 Tbsp of drippings in the pot.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">2</span>
+        <p class="step-text">Cook the onion in the drippings about 5 minutes until soft. Add the garlic and cook about 1 minute until fragrant.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">3</span>
+        <p class="step-text">Stir in the seasonings, then the tomato paste and sun-dried tomatoes; cook 1–2 minutes until the paste darkens slightly.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">4</span>
+        <p class="step-text">Sprinkle in the flour and stir about 1 minute until no dry streaks remain.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">5</span>
+        <p class="step-text">Pour in the wine (or the stock-and-lemon swap), scraping up the browned bits; cook 2–3 minutes until slightly reduced.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">6</span>
+        <p class="step-text">Gradually add the stock and cream, return the sausage to the pot, and bring to a boil.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">7</span>
+        <p class="step-text">Add the gnocchi and cook 4–5 minutes, stirring occasionally, until plump and tender — don&#39;t overcook.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">8</span>
+        <p class="step-text">Reduce to a gentle simmer; stir in the spinach until wilted, then the Parmesan until melted.</p>
+      </li>
+      <li class="instruction-step">
+        <span class="step-number" aria-hidden="true">9</span>
+        <p class="step-text">Salt to taste and serve with extra Parmesan.</p>
+      </li>
+          </ol>
+
+          <!-- Notes -->
+          <div id="recipe-notes" class="recipe-notes">
+        <p class="notes-title">💡 Notes</p>
+        <ul id="notes-list" class="notes-list"><li>Gnocchi go gummy if boiled past tender — pull them at 4–5 minutes.</li><li>Leftovers thicken as the gnocchi absorb broth; loosen with a splash of stock or cream when reheating.</li><li>The base can be made ahead; cook the gnocchi close to serving.</li></ul>
+      </div>
+        </article>
+
+      </div>
+
+      <!-- Related Recipes -->
+      <section id="related-section" class="related-section" hidden aria-label="Related recipes">
+      <h2 class="related-title">You might also need</h2>
+      <div id="related-grid" class="related-grid">
+
+      </div>
+    </section>
+
+    </div>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="site-footer">
+    <div class="container">
+      <p><strong>Patrick's Recipe Book</strong> — family recipes, collected with love.</p>
+    </div>
+  </footer>
+
+  <script src="/js/recipe.js"></script>
+</body>
+</html>

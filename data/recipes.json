@@ -2765,6 +2765,165 @@
         "Store airtight at room temperature for 2–3 weeks, or freeze up to 3 months. The pecans set the limit — their oils go rancid before the granola goes stale."
       ],
       "dateAdded": "2026-09-03"
+    },
+    {
+      "id": "one-pot-creamy-tomato-pesto-pasta",
+      "title": "One-Pot Creamy Tomato Pesto Pasta",
+      "emoji": "🍝",
+      "category": "mains",
+      "tags": [
+        "pasta",
+        "vegetarian",
+        "stovetop",
+        "quick",
+        "one-pot"
+      ],
+      "serves": null,
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "10 oz dry mafaldine pasta (spaghetti, linguine, or fettuccine also work)",
+            "1/3 red onion, diced",
+            "2 cups baby spinach, long stems trimmed",
+            "1 pint cherry tomatoes, halved",
+            "1/3 cup tomato sauce",
+            "5 cloves garlic, sliced",
+            "2 Tbsp basil pesto",
+            "2 tsp Italian seasoning",
+            "1 tsp smoked paprika",
+            "1/2 tsp salt",
+            "1/2 tsp cracked black pepper",
+            "2 Tbsp butter",
+            "1 Tbsp olive oil",
+            "2 cups chicken stock",
+            "3/4 cup heavy cream"
+          ]
+        },
+        {
+          "heading": "Finish",
+          "items": [
+            "2 oz Parmesan cheese, freshly shredded",
+            "1/2 lemon, juiced"
+          ]
+        }
+      ],
+      "instructions": [
+        "Layer the dry pasta, onion, spinach, cherry tomatoes, tomato sauce, garlic, pesto, seasonings, butter, and olive oil in a deep skillet, spreading evenly.",
+        "Pour in the chicken stock and heavy cream so the pasta is mostly surrounded by liquid.",
+        "Bring to a gentle bubble over medium heat, then cover and reduce to a gentle simmer.",
+        "At 8–9 minutes, lift the lid and press softened noodles down into the liquid; re-cover and simmer until tender, 15–20 minutes total. Add a splash of warm stock if the pan looks dry.",
+        "Off the heat, toss with the lemon juice and Parmesan until melted and glossy. Serve immediately with extra Parmesan if desired."
+      ],
+      "notes": [
+        "Pasta substitutions may change cooking time and liquid needs.",
+        "Don't skip the halfway check — it keeps exposed noodles cooking evenly.",
+        "The sauce should still look slightly loose when the lid comes off; it thickens as it rests and as the Parmesan goes in.",
+        "Pairs with air-fried chicken tenderloins, grilled chicken, steak, ground beef, or Italian sausage."
+      ],
+      "dateAdded": "2026-10-30"
+    },
+    {
+      "id": "sausage-gnocchi-soup",
+      "title": "Sausage Gnocchi Soup",
+      "emoji": "🍲",
+      "category": "mains",
+      "tags": [
+        "soup",
+        "sausage",
+        "gnocchi",
+        "stovetop",
+        "one-pot"
+      ],
+      "serves": null,
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "1 lb ground Italian sausage",
+            "1 medium yellow onion, finely diced",
+            "4 cloves garlic, minced",
+            "2 tsp Italian seasoning",
+            "1/2 tsp black pepper",
+            "1/2 tsp red pepper flakes",
+            "3 Tbsp tomato paste",
+            "1/2 cup sun-dried tomatoes, oil-packed, drained and chopped",
+            "3 Tbsp flour",
+            "2/3 cup dry white wine (or 2/3 cup extra chicken stock + 1 Tbsp lemon juice)",
+            "5 cups chicken stock, low-sodium preferred",
+            "1 1/2 cups heavy cream",
+            "1 lb potato gnocchi (DeLallo preferred)",
+            "3 cups baby spinach",
+            "1/2 cup freshly grated Parmesan, plus more for serving",
+            "Salt to taste"
+          ]
+        }
+      ],
+      "instructions": [
+        "Brown the sausage in a Dutch oven or stockpot over medium-low heat, breaking it into crumbles. Move to a paper-towel-lined plate, leaving about 1 Tbsp of drippings in the pot.",
+        "Cook the onion in the drippings about 5 minutes until soft. Add the garlic and cook about 1 minute until fragrant.",
+        "Stir in the seasonings, then the tomato paste and sun-dried tomatoes; cook 1–2 minutes until the paste darkens slightly.",
+        "Sprinkle in the flour and stir about 1 minute until no dry streaks remain.",
+        "Pour in the wine (or the stock-and-lemon swap), scraping up the browned bits; cook 2–3 minutes until slightly reduced.",
+        "Gradually add the stock and cream, return the sausage to the pot, and bring to a boil.",
+        "Add the gnocchi and cook 4–5 minutes, stirring occasionally, until plump and tender — don't overcook.",
+        "Reduce to a gentle simmer; stir in the spinach until wilted, then the Parmesan until melted.",
+        "Salt to taste and serve with extra Parmesan."
+      ],
+      "notes": [
+        "Gnocchi go gummy if boiled past tender — pull them at 4–5 minutes.",
+        "Leftovers thicken as the gnocchi absorb broth; loosen with a splash of stock or cream when reheating.",
+        "The base can be made ahead; cook the gnocchi close to serving."
+      ],
+      "dateAdded": "2026-10-30"
+    },
+    {
+      "id": "homemade-granola-bars",
+      "title": "Homemade Granola Bars",
+      "emoji": "🥜",
+      "category": "desserts",
+      "tags": [
+        "no-bake",
+        "peanut-butter",
+        "chocolate",
+        "snack",
+        "make-ahead"
+      ],
+      "serves": null,
+      "image": null,
+      "relatedRecipes": [],
+      "ingredientGroups": [
+        {
+          "heading": null,
+          "items": [
+            "1 cup very smooth creamy natural peanut butter or cashew butter",
+            "2/3 cup honey",
+            "1 tsp vanilla extract",
+            "Heaping 1/2 tsp sea salt",
+            "2 1/2 cups whole rolled oats",
+            "1/3 cup mini chocolate chips",
+            "3 Tbsp pepitas, or crushed peanuts, or cashews"
+          ]
+        }
+      ],
+      "instructions": [
+        "Line an 8x8 baking pan with parchment paper.",
+        "In a large bowl, stir together the peanut butter, honey, vanilla, and salt until smooth.",
+        "Fold in the oats, chocolate chips, and pepitas (or nuts). The mixture may seem dry at first — keep stirring until it comes together.",
+        "Press firmly into the pan; use a second piece of parchment and the back of a measuring cup to flatten.",
+        "Chill for at least 1 hour, then slice into bars. Store in the fridge."
+      ],
+      "notes": [
+        "Regular-size chocolate chips make the bars less cohesive — use mini chips, or chop chocolate to mini size.",
+        "To make vegan, use brown rice syrup instead of honey; maple syrup isn't sticky enough for bars (it works if rolled into energy balls instead).",
+        "To make gluten-free, use certified gluten-free oats.",
+        "We made ours with Jif Natural peanut butter and crushed honey roasted peanuts."
+      ],
+      "dateAdded": "2026-10-30"
     }
   ]
 }
