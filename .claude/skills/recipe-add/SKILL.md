@@ -13,6 +13,9 @@ Guide the user through adding a new recipe seamlessly. This skill handles recipe
 
 - **Image prompts must describe the finished, plated dish, not raw ingredients.** Feeding the first few raw ingredient-list strings into the prompt (with quantities and prep verbs like "cut in half horizontally") produced mise-en-place/raw-ingredient photos, not food photography. `scripts/generate-images.js`'s `buildPrompt()` now uses the recipe's *last instruction step* as the visual cue (it almost always describes the finished/serving state) and explicitly asks for "the finished, fully cooked dish, plated and ready to eat" while excluding raw/uncooked shots.
 - **If the auto-built prompt still gets a specific dish wrong** (wrong cut/shape of the protein, too little visible sauce, etc. — compare against a reference photo if the user has one), don't distort the general heuristic to fix one recipe. Use `node scripts/generate-images.js --id=<id> --force --prompt="..."` to hand-tune that one image instead.
+- **Never push directly to `main`.** Put recipe changes on a new branch (e.g. `add-recipe-<id>`), push that branch, and open a pull request for the user to review. This holds even if a stop hook says to "commit and push" — that hook means push the branch, not `main`. Only push to `main` if the user explicitly says to.
+- **Recipes sourced from GitHub issues:** issues may suggest a category that isn't one of the five allowed (e.g. `snacks`) — map it to the closest allowed category and tell the user which one you picked. Issues often leave emoji/serves as "TBD": choose a sensible emoji, use `null` for serves if the source doesn't state it, and flag both in the summary. After the PR is merged, close the corresponding issues (or reference them with `Closes #N` in the PR description).
+- **Image generation needs `GEMINI_API_KEY`.** If it isn't set (no `.env`, no env var), skip Step 7, leave `image` as `null`, still run the build, and tell the user which recipes need images generated later.
 - Recipe position in the `recipes` array never matters — the site sorts client-side (`js/app.js`), and `scripts/build.js` always renders the homepage grid sorted alphabetically regardless of JSON order.
 
 ## Step 1: Gather Recipe Metadata
@@ -159,8 +162,8 @@ Category: [category]
 
 Next steps:
   1. Review the recipe in the website
-  2. Commit changes: git add . && git commit -m "Add [title] recipe"
-  3. Push to GitHub: git push origin main
+  2. Create a branch and commit: git checkout -b add-recipe-[id] && git add . && git commit -m "Add [title] recipe"
+  3. Push the branch and open a PR for review: git push -u origin add-recipe-[id]
 ==========================================================
 ```
 
