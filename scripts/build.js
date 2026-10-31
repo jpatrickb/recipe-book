@@ -140,6 +140,18 @@ function renderNotesBlock(notes) {
       </div>`;
 }
 
+function renderSourceBlock(source) {
+  if (!source || !source.name) return '';
+  const safeUrl = source.url && /^https?:\/\//i.test(source.url) ? source.url : null;
+  const link = safeUrl
+    ? `<a href="${escapeHtml(safeUrl)}" target="_blank" rel="noopener noreferrer">${escapeHtml(source.name)}</a>`
+    : escapeHtml(source.name);
+  return `
+
+          <!-- Source credit -->
+          <p class="recipe-source">Source: ${link}</p>`;
+}
+
 function renderRelatedSection(recipe, recipeMap) {
   const related = (recipe.relatedRecipes || [])
     .map(id => recipeMap[id])
@@ -238,7 +250,7 @@ function renderRecipePage(recipe, recipeMap) {
           </ol>
 
           <!-- Notes -->
-          ${renderNotesBlock(recipe.notes)}
+          ${renderNotesBlock(recipe.notes)}${renderSourceBlock(recipe.source)}
         </article>
 
       </div>

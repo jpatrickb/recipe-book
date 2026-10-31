@@ -878,6 +878,17 @@ p { color: var(--color-text); }
   line-height: 1.6;
 }
 
+/* ---- Recipe Source Credit ---- */
+.recipe-source {
+  margin-top: var(--space-md);
+  font-size: 14px;
+  color: var(--color-text-muted);
+}
+
+.recipe-source a {
+  color: var(--color-accent);
+}
+
 /* ---- Related Recipes ---- */
 .related-section {
   border-top: 1px solid var(--color-border);

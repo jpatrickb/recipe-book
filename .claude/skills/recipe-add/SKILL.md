@@ -42,6 +42,12 @@ Start by asking the user for basic recipe information:
 5. **Serves** (optional)
    - Example: "4–6" or leave blank for null
 
+6. **Source / credit** (required if the recipe comes from anywhere other than the user's own kitchen)
+   - Ask where the recipe came from (website, cookbook, video, person). Never add an externally sourced recipe without crediting it — we don't want to plagiarize.
+   - Record it as `source: { "name": "<Site/Author – Recipe Title>", "url": "<https link or omit>" }`. Link directly to the original recipe page, not a social media repost, when possible (credit the reel/creator too if that's all there is).
+   - Rephrase instructions in our own words rather than copying the source's text verbatim; ingredient lists and quantities are fine to reproduce.
+   - Family/original recipes can omit `source`.
+
 Display the auto-generated recipe ID and ask for confirmation before proceeding.
 
 ## Step 2: Collect Ingredient Groups
@@ -107,6 +113,7 @@ Once confirmed:
      "serves": "4–6",
      "image": null,
      "relatedRecipes": [],
+     "source": { "name": "Site – Recipe Title", "url": "https://example.com/recipe" },
      "ingredientGroups": [...],
      "instructions": [...],
      "notes": [...],
