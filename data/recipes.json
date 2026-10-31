@@ -2823,7 +2823,11 @@
         "The sauce should still look slightly loose when the lid comes off; it thickens as it rests and as the Parmesan goes in.",
         "Pairs with air-fried chicken tenderloins, grilled chicken, steak, ground beef, or Italian sausage."
       ],
-      "dateAdded": "2026-10-30"
+      "dateAdded": "2026-10-30",
+      "source": {
+        "name": "Bad Batch Baking – One-Pot Creamy Tomato Pesto Pasta",
+        "url": "https://badbatchbaking.com/one-pot-creamy-tomato-pesto-pasta/"
+      }
     },
     {
       "id": "sausage-gnocchi-soup",
@@ -2879,7 +2883,11 @@
         "Leftovers thicken as the gnocchi absorb broth; loosen with a splash of stock or cream when reheating.",
         "The base can be made ahead; cook the gnocchi close to serving."
       ],
-      "dateAdded": "2026-10-30"
+      "dateAdded": "2026-10-30",
+      "source": {
+        "name": "Bad Batch Baking – Sausage Gnocchi Soup",
+        "url": "https://badbatchbaking.com/sausage-gnocchi-soup/"
+      }
     },
     {
       "id": "homemade-granola-bars",
@@ -2923,7 +2931,11 @@
         "To make gluten-free, use certified gluten-free oats.",
         "We made ours with Jif Natural peanut butter and crushed honey roasted peanuts."
       ],
-      "dateAdded": "2026-10-30"
+      "dateAdded": "2026-10-30",
+      "source": {
+        "name": "Love and Lemons – Homemade Granola Bars",
+        "url": "https://www.loveandlemons.com/wprm_print/homemade-granola-bars"
+      }
     }
   ]
 }
